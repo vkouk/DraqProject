@@ -35,15 +35,17 @@
 
 	<footer class="footer">
 	    <div class="container">
-	      <div class="col-xs-4">
-			<a href="http://www.derby.ac.uk"><img class="img-responsive" src="images/derby-logo.jpg" alt="Derby Logo"></a>	
-	      </div>
-		  <div class="col-xs-4">
-	      	<a href="#"><span>DISCLAIMER</span></a>
-	      </div>
-	      <div class="col-xs-4">
-	      	<a href="http://www.medcollege.edu.gr"><img class="img-responsive" src="images/med-college-logo.jpg" alt="MedCollege Logo"></a>
-	      </div>
+	    	<div class="row">
+	    		<div class="col-xs-4">
+					<a href="http://www.derby.ac.uk"><img class="img-responsive" src="images/derby-logo.jpg" alt="Derby Logo"></a>	
+	      		</div> <!-- col-xs-4 -->
+	      		<div class="col-xs-4">
+	      			<a href="#"><span>DISCLAIMER</span></a>
+	      		</div> <!-- col-xs-4 -->
+	      		<div class="col-xs-4">
+	      			<a href="http://www.medcollege.edu.gr"><img class="img-responsive" src="images/med-college-logo.jpg" alt="MedCollege Logo"></a>
+	      		</div> <!-- col-xs-4 -->
+	    	</div> <!-- row -->
 	    </div> <!-- container -->
   	</footer> <!-- footer -->
 	
