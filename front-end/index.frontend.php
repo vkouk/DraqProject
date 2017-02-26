@@ -9,26 +9,40 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="nav navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.php"><span>Diabetes Team Project</span></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>                        
+	      			</button>
+					<a class="navbar-brand" href="index.php"><span>Diabetes Team Project</span></a>
+					<p class="navbar-text draq-text">Diabetes Risk Assessment Questionnaire</p>
 				</div>
-				<ul class="nav nav-pills navbar-right menu">
-					<li><a href="questonnaire.php">The Questonnaire</a></li>
-					<li><a href="about-diabetes.php">About Diabetes</a></li>
-					<li><a href="about-us.php">About Us</a></li>
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="useful-links.php">Useful Links</a></li>
-				</ul>
 			</div> <!-- container -->
+			<div class="collapse navbar-collapse" id="navBar">
+					<ul class="nav navbar nav-pills menu">
+						<li><a href="questonnaire.php">The Questonnaire</a></li>
+						<li><a href="about-diabetes.php">About Diabetes</a></li>
+						<li><a href="about-us.php">About Us</a></li>
+						<li><a href="contact.php">Contact</a></li>
+						<li><a href="useful-links.php">Useful Links</a></li>
+					</ul>
+			</div>
 		</nav> <!-- nav -->
 	</header> <!-- header -->
 
 	<div class="main">
 		<div class="page">
 			<div class="container">
-
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nemo at sequi, magnam porro obcaecati eaque vitae cupiditate excepturi ut? Voluptas voluptatum, voluptate fugit, expedita totam asperiores modi molestias harum.
+						</p>
+					</div>
+				</div>
 			</div> <!-- container -->
 		</div> <!-- page -->
 	</div> <!-- main -->

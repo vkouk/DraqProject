@@ -6,7 +6,7 @@ body{
   position: relative;
   background-color: #ffffff;
   font-size: 16px;
-  padding-top: 70px;
+  padding-top: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,14 +20,29 @@ a:hover {
 }
 
 .main {
+  background-color: #d4caca;
 	padding: 30px 0;
 }
 
 /** Header - Nav **/
 
+header .navbar-header {
+  background-color: #4d4b4b;
+}
+
 header .navbar {
 	padding-top: 20px;
 	margin-bottom: 0;
+  background-color: #8e8e8e;
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+header .navbar > li {
+  display: inline-block;
+  float:none;
 }
 
 header .navbar-default {
@@ -38,8 +53,9 @@ header .navbar-default {
 }
 
 header .menu li > a {
-	color: #006837;
+	color: #f5efef;
 	font-weight: italic;
+  text-align: center;
 }
 
 /**  Footer **/
@@ -48,6 +64,7 @@ footer {
   font-size: .8em;
   padding: 20px 0 40px 0;
   border-top: 1px solid #e5e5e5;
+  background-color: #979797;
 }
 
 footer .navbar {
