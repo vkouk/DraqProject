@@ -7,9 +7,9 @@ body{
   position: relative;
   background-color: #ffffff;
   font-size: 16px;
-  /**27/2/2017 Added two more attributes. Preferably this can be our width.**/
+  /** 27/2/2017 Added two more attributes. Preferably this can be our width. **/
   padding-top: 10px;
-  width:1500px;
+  max-width: 1500px;
 
 }
 
@@ -24,21 +24,18 @@ a:hover {
 }
 
 .main {
-    background-color: #e5e5e5;
-    margin:20px 0 20px;
-    /**27/2/2017 Added three more attributes.**/
+  background-color: #e5e5e5;
+  margin:20px 0 20px;
+  /** 27/2/2017 Added three more attributes. **/
 	padding-top: 30px;
-    padding-bottom:30px;
-    height:auto;
-   
-
+  padding-bottom: 30px;
+  height: auto;
 }
 
 /** Header - Nav **/
 
 header .navbar-header {
   background-color: #4d4b4b;
-
 }
 
 header .navbar {
