@@ -1,6 +1,6 @@
 /** Basic CSS **/
 
-body{
+body {
   font-weight: 300;
   margin:auto;
   font-size: 2em;
@@ -10,7 +10,6 @@ body{
   /** 27/2/2017 Added two more attributes. Preferably this can be our width. **/
   padding-top: 10px;
   max-width: 1500px;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
