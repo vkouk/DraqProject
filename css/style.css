@@ -58,11 +58,9 @@ header .navbar-default {
 	padding: 10px 0;
 }
 
-
 header .menu li > a {
 	color: #f5efef;
 	font-weight: italic;
-  text-align: center;
 }
 
 /**  Footer **/

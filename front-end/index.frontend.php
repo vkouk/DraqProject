@@ -24,7 +24,14 @@
 			<div class="collapse navbar-collapse" id="navBar">
 					<ul class="nav navbar nav-pills menu">
 						<li><a href="questonnaire.php">The Questonnaire</a></li>
-						<li><a href="about-diabetes.php">About Diabetes</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="about-diabetes.php">About Diabetes<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+					          <li><a href="prediabetes.php">Prediabetes</a></li>
+					          <li><a href="living-with.php">Living With</a></li>
+					          <li><a href="what-is.php">What Is</a></li>
+					        </ul>
+						</li>
 						<li><a href="about-us.php">About Us</a></li>
 						<li><a href="contact.php">Contact</a></li>
 						<li><a href="useful-links.php">Useful Links</a></li>
