@@ -25,8 +25,9 @@
 					<ul class="nav navbar nav-pills menu">
 						<li><a href="questonnaire.php">The Questonnaire</a></li>
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="about-diabetes.php">About Diabetes<span class="caret"></span></a>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diabetes<span class="caret"></span></a>
 							<ul class="dropdown-menu">
+							  <li><a href="about-diabetes.php">About Diabetes</a></li>
 					          <li><a href="prediabetes.php">Prediabetes</a></li>
 					          <li><a href="living-with.php">Living With</a></li>
 					          <li><a href="what-is.php">What Is</a></li>
