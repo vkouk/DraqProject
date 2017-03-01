@@ -2,7 +2,7 @@
 
 body {
   font-weight: 300;
-  margin:auto;
+  margin: auto;
   font-size: 2em;
   position: relative;
   background-color: #ffffff;
@@ -33,14 +33,10 @@ a:hover {
 
 /** Header - Nav **/
 
-header .navbar-header {
-  background-color: #4d4b4b;
-}
-
 header .navbar {
   margin-bottom: 20px;
-  background-color: #8e8e8e;
-  float:none;
+  background-color: #4d4e50;
+  float: none;
   margin:0 auto;
   display: block;
   text-align: center;
@@ -48,19 +44,21 @@ header .navbar {
 
 header .navbar > li {
   display: inline-block;
-  float:none;
+  float: none;
+  padding: 2px 0;
 }
 
 header .navbar-default {
 	background-color: #ffffff;
-	border: none;
-	border-radius: 0;
+  border: none;
 	padding: 10px 0;
 }
 
 header .menu li > a {
+  background-color: #2260b5;
 	color: #f5efef;
 	font-weight: italic;
+  margin-right: -4px;
 }
 
 /**  Footer **/
