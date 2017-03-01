@@ -50,7 +50,7 @@ header .navbar > li {
 header .navbar-default {
 	background-color: #ffffff;
   border: none;
-	padding: 10px 0;
+	padding: 15px 0;
 }
 
 header .menu li > a {
@@ -71,6 +71,15 @@ header .menu li > a {
 header .menu li > a:hover {
   background-color: #f5efef;
   color: #2260b5;
+}
+
+/** 1/3/2017 Added header text & logo style. **/
+.draq-text {
+  font-size: 1.5em;
+  font-weight: italic;
+  color: #645e5e;
+  margin-left: 150px;
+  margin-top: -50px;
 }
 
 /**  Footer **/

@@ -17,8 +17,8 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>                        
 	      			</button>
-					<a class="navbar-brand" href="index.php"><span>Diabetes Team Project</span></a>
-					<p class="navbar-text draq-text">Diabetes Risk Assessment Questionnaire</p>
+					<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+					<p class="draq-text">Diabetes Risk Assessment Questionnaire</p>
 				</div>
 			</div> <!-- container -->
 			<div class="collapse navbar-collapse" id="navBar">
