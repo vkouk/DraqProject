@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Draq HomePage</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 	<header>
@@ -17,20 +17,19 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>                        
 	      			</button>
-					<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+					<a href="index.php"><img class="img-responsive" src="../images/logo.png" alt="Draq Logo"></a>
 					<p class="draq-text">Diabetes Risk Assessment Questionnaire</p>
 				</div>
 			</div> <!-- container -->
 			<div class="collapse navbar-collapse" id="navBar">
 					<ul class="nav navbar nav-pills menu">
-						<li><a href="questonnaire.php">The Questonnaire</a></li>
+						<li><a href="questonnaire.php">The Questionnaire</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diabetes<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-							  <li><a href="about-diabetes.php">About Diabetes</a></li>
-					          <li><a href="prediabetes.php">Prediabetes</a></li>
-					          <li><a href="living-with.php">Living With</a></li>
-					          <li><a href="what-is.php">What Is</a></li>
+							  <li><a class="subtab" href="about-diabetes.php">What Is </a></li>
+					          <li><a class="subtab" href="prediabetes.php">Prediabetes</a></li>
+					          <li><a class="subtab" href="living-with.php">Living With</a>
 					        </ul>
 						</li>
 						<li><a href="about-us.php">About Us</a></li>
@@ -59,13 +58,13 @@
 	    <div class="container">
 	    	<div class="row">
 	    		<div class="col-xs-4">
-					<a href="http://www.derby.ac.uk"><img class="img-responsive" src="images/derby-logo.jpg" alt="Derby Logo"></a>	
+					<a href="http://www.derby.ac.uk"><img class="img-responsive" src="../images/derby-logo.jpg" alt="Derby Logo"></a>	
 	      		</div> <!-- col-xs-4 -->
 	      		<div class="col-xs-4">
 	      			<a href="#"><span>DISCLAIMER</span></a>
 	      		</div> <!-- col-xs-4 -->
 	      		<div class="col-xs-4">
-	      			<a href="http://www.medcollege.edu.gr"><img class="img-responsive" src="images/med-college-logo.jpg" alt="MedCollege Logo"></a>
+	      			<a href="http://www.medcollege.edu.gr"><img class="img-responsive" src="../images/med-college-logo.jpg" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-xs-4 -->
 	    	</div> <!-- row -->
 	    </div> <!-- container -->
