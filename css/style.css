@@ -35,7 +35,6 @@ a:hover {
 
 header .navbar {
   margin-bottom: 20px;
-  background-color: #4d4e50;
   float: none;
   margin:0 auto;
   display: block;
@@ -59,6 +58,8 @@ header .menu li > a {
 	color: #f5efef;
 	font-weight: italic;
   margin-right: -4px;
+  margin-top: 5px;
+  padding: 5px 40px;
 }
 
 /**  Footer **/
