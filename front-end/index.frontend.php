@@ -23,13 +23,22 @@
 			</div> <!-- container -->
 			<div class="collapse navbar-collapse" id="navBar">
 					<ul class="nav navbar nav-pills menu">
-						<li><a href="questonnaire.php">The Questionnaire</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="questonnaire.php">The Questionnaire<span class="caret"></span></a>
+							<ul class="dropdown-menu nav-subtab">
+							  <li><a href="about-questionnaire.php">About Questionnaire</a></li>
+							  <li class="divider"></li>
+					          <li><a href="do-test.php">Do The Test</a></li>
+					        </ul>
+						</li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diabetes<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">
-							  <li><a href="about-diabetes.php">What Is </a></li>
+							  <li><a href="about-diabetes.php">What Is</a></li>
+							  <li class="divider"></li>
 					          <li><a href="prediabetes.php">Prediabetes</a></li>
-					          <li><a href="living-with.php">Living With</a>
+					          <li class="divider"></li>
+					          <li><a href="living-with.php">Living With</a></li>
 					        </ul>
 						</li>
 						<li><a href="about-us.php">About Us</a></li>
@@ -73,5 +82,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
