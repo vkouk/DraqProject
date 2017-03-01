@@ -90,6 +90,11 @@ header .menu li > a:hover {
   margin-top: -50px;
 }
 
+/** 1/3/2017 Bill: Fixed dropdown menu focus color. **/
+.nav .open>a, .nav .open > a:focus, .nav .open > a:hover {
+  color: #2260b5;
+}
+
 /**  Footer **/
 
 footer {
