@@ -26,10 +26,10 @@
 						<li><a href="questonnaire.php">The Questionnaire</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diabetes<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-							  <li><a class="nav-subtab" href="about-diabetes.php">What Is </a></li>
-					          <li><a class="nav-subtab" href="prediabetes.php">Prediabetes</a></li>
-					          <li><a class="nav-subtab" href="living-with.php">Living With</a>
+							<ul class="dropdown-menu nav-subtab">
+							  <li><a href="about-diabetes.php">What Is </a></li>
+					          <li><a href="prediabetes.php">Prediabetes</a></li>
+					          <li><a href="living-with.php">Living With</a>
 					        </ul>
 						</li>
 						<li><a href="about-us.php">About Us</a></li>
