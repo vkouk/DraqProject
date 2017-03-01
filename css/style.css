@@ -58,8 +58,19 @@ header .menu li > a {
 	color: #f5efef;
 	font-weight: italic;
   margin-right: -4px;
+  /** 1/3/2017 Style for our new nav bar & hover animation. **/
+  transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -o-transition: all .5s linear;
   margin-top: 5px;
   padding: 5px 40px;
+}
+
+/** 1/3/2017 Added new hover color for our new nav bar. **/
+header .menu li > a:hover {
+  background-color: #f5efef;
+  color: #2260b5;
 }
 
 /**  Footer **/
