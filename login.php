@@ -1,4 +1,3 @@
-<?php  
-require('front-end/login.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->

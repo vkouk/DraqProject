@@ -1,4 +1,3 @@
-<?php 
-require('front-end/about-us.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->

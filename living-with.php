@@ -1,4 +1,3 @@
-<?php  
-require('front-end/living-with.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->

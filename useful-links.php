@@ -1,4 +1,3 @@
-<?php 
-require('front-end/useful-links.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->

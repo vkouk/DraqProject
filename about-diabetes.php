@@ -1,4 +1,3 @@
-<?php 
-require('front-end/about-diabetes.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->

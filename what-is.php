@@ -1,4 +1,3 @@
-<?php 
-require('front-end/what-is.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->

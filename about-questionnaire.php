@@ -1,4 +1,3 @@
-<?php 
-require('front-end/about-questionnaire.frontend.php');
-
-?>
+<div class="row">
+	
+</div> <!-- row -->
