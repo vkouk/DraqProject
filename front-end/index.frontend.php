@@ -24,7 +24,7 @@
 			<div class="collapse navbar-collapse" id="navBar">
 					<ul class="nav navbar nav-pills menu">
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="questonnaire.php">The Questionnaire<span class="caret"></span></a>
+							<a href="questonnaire.php">The Questionnaire<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">
 							  <li><a href="about-questionnaire.php">About Questionnaire</a></li>
 							  <li class="divider"></li>
@@ -32,7 +32,7 @@
 					        </ul>
 						</li>
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diabetes<span class="caret"></span></a>
+							<a href="#">Diabetes<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">
 							  <li><a href="about-diabetes.php">What Is</a></li>
 							  <li class="divider"></li>
