@@ -23,6 +23,7 @@
 			</div> <!-- container -->
 			<div class="collapse navbar-collapse" id="navBar">
 					<ul class="nav navbar nav-pills menu">
+						<!-- 2/3/2017 Bill: Fixed dropdown menu redirect link. -->
 						<li class="dropdown">
 							<a href="questonnaire.php">The Questionnaire<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">

@@ -36,7 +36,6 @@ a:hover {
 /** Header - Nav **/
 
 header .navbar {
-  margin-bottom: 20px;
   float: none;
   margin:0 auto;
   display: block;
@@ -70,7 +69,7 @@ header .menu li > a {
   -moz-transition: all .5s linear;
   -o-transition: all .5s linear;
   margin-top: 5px;
-  padding: 5px 74px; /** 1/3/2017 Nassia: Increased padding to fill width. **/
+  padding: 5px 73px; /** 1/3/2017 Nassia: Increased padding to fill width. **/
 }
 
 /** 1/3/2017 Bill: Added new hover color for our new nav bar. **/
