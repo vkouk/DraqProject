@@ -70,15 +70,12 @@
 	<footer class="footer">
 	    <div class="container">
 	    	<div class="row">
-	    		<div class="col-xs-4">
-					<a href="http://www.derby.ac.uk"><img class="img-responsive" src="images/derby-logo.jpg" alt="Derby Logo"></a>	
-	      		</div> <!-- col-xs-4 -->
-	      		<div class="col-xs-4">
-	      			<a href="#"><span>DISCLAIMER</span></a>
-	      		</div> <!-- col-xs-4 -->
-	      		<div class="col-xs-4">
-	      			<a href="http://www.medcollege.edu.gr"><img class="img-responsive" src="images/med-college-logo.jpg" alt="MedCollege Logo"></a>
-	      		</div> <!-- col-xs-4 -->
+	      		<div class="col-md-6">
+	      			<span>DISCLAIMER</span>
+	      		</div> <!-- col-md-6 -->
+	      		<div class="col-md-4">
+	      			<a href="#"><img class="img-responsive" src="images/credits-logo.png" alt="College-Uni Logo"></a>
+	      		</div> <!-- col-md-4 -->
 	    	</div> <!-- row -->
 	    </div> <!-- container -->
   	</footer> <!-- footer -->
