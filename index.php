@@ -72,6 +72,9 @@
 	    	<div class="row">
 	      		<div class="col-md-6">
 	      			<span>DISCLAIMER</span>
+	      			<p>
+	      				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci exercitationem eligendi provident autem qui quia.
+	      			</p>
 	      		</div> <!-- col-md-6 -->
 	      		<div class="col-md-4">
 	      			<a href="#"><img class="img-responsive" src="images/credits-logo.png" alt="College-Uni Logo"></a>
