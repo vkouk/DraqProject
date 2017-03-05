@@ -139,8 +139,8 @@ header .menu li > a:hover {
 /** 2/3/2017 Bill: Added back-top style. **/
 #back-to-top {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   position: fixed;
   bottom: 40px;
   right: 10px;
@@ -162,6 +162,23 @@ header .menu li > a:hover {
 
 #back-to-top.show {
   opacity: 2;
+}
+
+/** 5/3/2017 Bill: Added responsive media-queries for smaller screen devices.. **/
+@media only screen and (min-width: 768px) {
+  #back-to-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #back-to-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
 }
 
 /**  Footer **/
