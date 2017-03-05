@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Draq HomePage</title>
+	<title>Draq - Diabetes Risk Assessment Questionnaire</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -53,9 +54,6 @@
 	<div class="main">
 		<div class="page">
 			<div class="container">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nemo at sequi, magnam porro obcaecati eaque vitae cupiditate excepturi ut? Voluptas voluptatum, voluptate fugit, expedita totam asperiores modi molestias harum.
-				</p>
 				<?php  
 					if (isset($_GET['page']))
 					{
@@ -66,6 +64,7 @@
 			</div> <!-- container -->
 		</div> <!-- page -->
 	</div> <!-- main -->
+	<a href="#" id="back-to-top" title="Back to top">&uarr;</a> <!-- 2/3/2017 Bill:Added back-to-top option. -->
 
 	<footer class="footer">
 	    <div class="container">
