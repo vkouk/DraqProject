@@ -138,29 +138,30 @@ header .menu li > a:hover {
 
 /** 2/3/2017 Bill: Added back-top style. **/
 #back-to-top {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   position: fixed;
   bottom: 40px;
-  right: 40px;
-  z-index: 9999;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-  line-height: 30px;
-  color: #444;
-  cursor: pointer;
-  border: 0;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: all 0.2s ease-out;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(43, 89, 162, 0.8) url(../images/top-arrow.svg) no-repeat center 50%;
   opacity: 0;
+  -webkit-transition: opacity .3s 0s, background .5s ease;
+  -moz-transition: opacity .3s 0s, background .5s ease;
+  -o-transition: opacity .3s 0s, background .5s ease;
+  transition: opacity .3s 0s, background .5s ease;
 }
 
 #back-to-top:hover {
-  background-color: #e9ebec;
+  background: rgba(233,235,236, 0.9) url(../images/top-arrow.svg) no-repeat center 50%;
 }
 
 #back-to-top.show {
-  opacity: 1;
+  opacity: 2;
 }
 
 /**  Footer **/
