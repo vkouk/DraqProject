@@ -181,6 +181,31 @@ header .menu li > a:hover {
   }
 }
 
+/** Login **/
+
+.login-main {
+  max-width: 1170px;
+  margin: 20px auto 30px auto !important;
+  padding-left: 2px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+}
+
+.btn-login {
+  background-color: #2b59a2;
+  color: #ffffff;
+  transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -o-transition: all .5s linear;
+}
+
+.btn-login:hover {
+  background-color: #f5efef;
+  color: #2b59a2;
+}
+
 /**  Footer **/
 
 footer {
