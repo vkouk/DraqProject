@@ -181,7 +181,7 @@ header .menu li > a:hover {
   }
 }
 
-/** Login **/
+/** Login **/ /** 7/3/2017 Bill: Added login page style. **/
 
 .login-main {
   max-width: 1170px;
