@@ -181,7 +181,7 @@ header .menu li > a:hover {
   }
 }
 
-/** Login **/ /** 7/3/2017 Bill: Added login page style. **/
+/** Login Page **/ /** 7/3/2017 Bill: Added login page style. **/
 
 .login-main {
   margin: auto;
@@ -206,6 +206,24 @@ header .menu li > a:hover {
 .btn-login:hover {
   background-color: #f5efef;
   color: #2b59a2;
+}
+
+/** Error Page **/ /** 8/3/2017 Bill: Created 404 page not found error style. **/
+
+.error-page {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 40px;
+}
+
+.error-page p {
+  font-weight: bold;
+  font-size: 2em;
 }
 
 /**  Footer **/
