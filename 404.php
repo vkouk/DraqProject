@@ -12,7 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="error-page">
-				<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+				<div class="error-logo-container">
+					<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+				</div>
 				<div class="col-sm-12 col-md-10 col-md-offset-1">
 					<p>404 Page Not Found</p>
 					Please go back to our <a href="index.php">Home Page</a>

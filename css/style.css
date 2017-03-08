@@ -194,6 +194,12 @@ header .menu li > a:hover {
   padding: 40px;
 }
 
+.login-logo-container {
+  margin: auto;
+  margin-bottom: 10px;
+  width:200px;
+}
+
 .btn-login {
   background-color: #2b59a2;
   color: #ffffff;
@@ -219,6 +225,12 @@ header .menu li > a:hover {
   min-width: 200px;
   max-width: 500px;
   padding: 40px;
+}
+
+.error-logo-container {
+  margin: auto;
+  margin-bottom: 10px;
+  width:200px;
 }
 
 .error-page p {

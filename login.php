@@ -13,7 +13,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="login-main">
-				<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+				<div class="login-logo-container">
+					<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+				</div>
 				<div class="col-sm-12 col-md-10 col-md-offset-1">
 					<form class="login-form" method="post" action="login.php">
 						<div class="form-group input-group">

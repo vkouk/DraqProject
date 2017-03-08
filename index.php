@@ -26,7 +26,7 @@
 					<ul class="nav navbar nav-pills menu">
 						<!-- 2/3/2017 Bill: Fixed dropdown menu redirect link. -->
 						<li class="dropdown">
-							<a href="index.php?page=questonnaire.php">The Questionnaire<span class="caret"></span></a>
+							<a href="index.php?page=questionnaire.php">The Questionnaire<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">
 							  <li><a href="index.php?page=about-questionnaire.php">About Questionnaire</a></li>
 							  <li class="divider"></li>
@@ -53,7 +53,7 @@
 		<div class="breadcrumbs">
 			<?php $page_title = str_replace("-"," ",$_GET['page']); ?>
 			<a href="index.php">Home</a>
-			/ <a href="index.php?page=<?php echo  $_GET['page']?>">
+			/ <a href="index.php?page=<?php echo $_GET['page']?>">
 				<?php $path_parts = pathinfo($page_title); echo ucwords($path_parts['filename']), "\n"; ?>
 			</a>
 		</div>
