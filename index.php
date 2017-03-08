@@ -49,6 +49,14 @@
 					</ul>
 			</div>
 		</nav> <!-- nav -->
+		<!-- 8/3/2017 Bill:Added breadcrumb for each page. -->
+		<div class="breadcrumbs">
+			<?php $page_title = str_replace("-"," ",$_GET['page']); ?>
+			<a href="index.php">Home</a>
+			/ <a href="index.php?page=<?php echo  $_GET['page']?>">
+				<?php $path_parts = pathinfo($page_title); echo ucwords($path_parts['filename']), "\n"; ?>
+			</a>
+		</div>
 	</header> <!-- header -->
 
 	<div class="main">
