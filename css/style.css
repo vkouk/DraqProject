@@ -197,7 +197,7 @@ header .menu li > a:hover {
 .login-logo-container {
   margin: auto;
   margin-bottom: 10px;
-  width:200px;
+  width: 150px;
 }
 
 .btn-login {
@@ -230,7 +230,7 @@ header .menu li > a:hover {
 .error-logo-container {
   margin: auto;
   margin-bottom: 10px;
-  width:200px;
+  width: 150px;
 }
 
 .error-page p {
