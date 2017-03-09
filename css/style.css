@@ -106,6 +106,10 @@ header .menu li > a:hover {
   border-radius: 4px;
 }
 
+/** 9/3/2017 Nassia: Added an additional margin to the ul-nav, to be fully centered with all the other elements.**/
+ul.nav-center{
+  margin-right:2px;
+}
 /** 2/3/2017 Bill: Changed dropdown menu divider color. **/
 .dropdown-menu .divider {
   background-color: #c0cddb;
@@ -236,6 +240,12 @@ header .menu li > a:hover {
 .error-page p {
   font-weight: bold;
   font-size: 2em;
+}
+
+.breadcrumb{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 /**  Footer **/

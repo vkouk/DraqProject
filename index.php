@@ -23,24 +23,24 @@
 				</div>
 			</div> <!-- container -->
 			<div class="collapse navbar-collapse" id="navBar">
-					<ul class="nav navbar nav-pills menu">
+					<ul class="nav navbar nav-pills menu nav-center"> <!--9/3/2017 Nassia: Added a nav-center class. Css explained in style.css-->
 						<!-- 2/3/2017 Bill: Fixed dropdown menu redirect link. -->
 						<li class="dropdown">
 							<a href="index.php?page=questionnaire.php">The Questionnaire<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">
-							  <li><a href="index.php?page=about-questionnaire.php">About Questionnaire</a></li>
+							  <li><a href="index.php?page=about-questionnaire.php">About The Questionnaire</a></li>
 							  <li class="divider"></li>
 					          <li><a href="index.php?page=do-test.php">Do The Test</a></li>
 					        </ul>
 						</li>
 						<li class="dropdown">
-							<a href="#">Diabetes<span class="caret"></span></a>
+							<a href="index.php?page=diabetes.php">Diabetes<span class="caret"></span></a>
 							<ul class="dropdown-menu nav-subtab">
-							  <li><a href="index.php?page=about-diabetes.php">What Is</a></li>
+							  <li><a href="index.php?page=about-diabetes.php">What Is Diabetes</a></li>
 							  <li class="divider"></li>
 					          <li><a href="index.php?page=prediabetes.php">Prediabetes</a></li>
 					          <li class="divider"></li>
-					          <li><a href="index.php?page=living-with.php">Living With</a></li>
+					          <li><a href="index.php?page=living-with.php">Living With Diabetes</a></li>
 					        </ul>
 						</li>
 						<li><a href="index.php?page=about-us.php">About Us</a></li>
@@ -50,14 +50,20 @@
 			</div>
 		</nav> <!-- nav -->
 		<!-- 8/3/2017 Bill:Added breadcrumb for each page. -->
-		<div class="breadcrumbs">
-			<?php $page_title = str_replace("-"," ",$_GET['page']); ?>
-			<a href="index.php">Home</a>
-			/ <a href="index.php?page=<?php echo $_GET['page']?>">
-				<?php $path_parts = pathinfo($page_title); echo ucwords($path_parts['filename']), "\n"; ?>
-			</a>
-		</div>
-	</header> <!-- header -->
+        <!--9/3/2017 Altered breadcrumb code. -->
+        <div class="breadcrumb">
+            <a href="index.php">Home</a>
+             <a href="index.php?page=<?php echo isset($_GET['page']);  ?>">
+                <?php
+                if (isset($_GET['page'])) {
+                    $page_title = str_replace("-", " ", $_GET['page']);
+                    $path_parts = pathinfo($page_title);
+                    echo '/ '.ucwords($path_parts['filename']), "\n";
+                }
+                ?>
+            </a>
+        </div><!--Breadcrumb-->
+       	</header> <!-- header -->
 
 	<div class="main">
 		<div class="page">
