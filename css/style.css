@@ -250,12 +250,45 @@ nav .nav-center{
 
 /** Questionnaire Page **/ /** 11/3/2017 Bill: Created style for questionnaire page. **/
 
+.questionnaire {
+  position: relative;
+  margin: 10px auto;
+  max-width: 700px;
+  height: 350px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgba(131, 235, 160, .5);
+}
+
+.questionnaire-container {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.questionnaire-header {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  padding: 4px 8px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.questionnaire-footer {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
 .caption {
   margin: 10px;
   width: 350px;
   height: 250px;
   float: left;
-  background: url('../images/test.jpg');
   background-size: cover;
   position: relative;
 }
@@ -267,9 +300,9 @@ nav .nav-center{
   padding: 4px 8px;
   margin: 0;
   font-size: 14px;
-  opacity: 0;
   background: rgba(43, 89, 162, 0.75);
   color: #f5efef;
+  opacity: 0;
   -webkit-transition: opacity .5s linear;
   -moz-transition: opacity .5s linear;
   -o-transition: opacity .5s linear;
