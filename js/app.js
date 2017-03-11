@@ -22,6 +22,13 @@ jQuery(document).ready(function($) {
 		  });
 	}
 
+	// 11/3/2017 Bill: Added opacity hover effect for image caption.
+	$('.caption').hover(function() {
+		$(".caption span").css("opacity", ".6");
+		}, function(){
+        $(".caption span").css("opacity", "0");
+	});
+
 	// 2/3/2017 Bill: Added slideToggle effect for dropdown menu.
 	$('.nav .nav-subtab').css("display", "none");
 	$('.dropdown').hover(function() {
