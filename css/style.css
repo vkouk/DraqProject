@@ -285,13 +285,38 @@ nav .nav-center{
   transition: opacity .5s linear;
 }
 
+.rectangle{
+    background-color: inherit;
+    padding:20px;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    max-width:300px;
+    margin:auto;
+}
+
 .links{
     padding-top: 20px;
 }
 
 .links>a{
     padding-bottom:5px;
+}
 
+.texts{
+    text-align: justify;
+    text-justify: auto;
+}
+
+.texts>h3,.texts>h4{
+    font-weight: bold;
+}
+
+.texts>h3{
+    padding-bottom: 30px;
+}
+
+.texts>p{
+    padding: 10px;
 }
 
 /**  Footer **/
