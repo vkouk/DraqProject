@@ -6,18 +6,40 @@
 
     </div>
     <div class="col-xs-6">
-        <form action="" method="">
-            <p>
-                Name:</t> <input type="text" name="name"><br>
-                Email:</t> <input type="email" name="email"><br>
-            </p>
-            <p>
-                Your Message:<br>
+        <form  action="" method="">
+            <table>
+            <div class="tableRow">
+                <p>
+                    Name:
+                </p>
+                <p>
+                    <input type="text" name="name">
+                </p>
+            </div>
+            <div class="tableRow">
+                <p>
+                    Email:
+                </p>
+                <p>
+                    <input type="email" name="email">
+                </p>
+            </div>
+
+            <div class="tableRow">
+                <p>
+                    Your Message:
+                </p>
+                <p>
                 <textarea name="message" rows="10" cols="50"></textarea>
-            </p>
-            <p>
-                <input type="submit">
-            </p>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p></p>
+                <p>
+                    <input type="submit">
+                </p>
+            </div>
+            </table>
         </form>
 
     </div>

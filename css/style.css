@@ -319,6 +319,19 @@ nav .nav-center{
     padding: 10px;
 }
 
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow>p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+div.tableRow>p:first-child{
+    text-align: right;
+}
 /**  Footer **/
 
 footer {
