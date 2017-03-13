@@ -8,10 +8,15 @@
     <div class="col-xs-6">
         <form action="" method="">
             <p>
-            Name: <input type="text"><br>
-            Email: <input type="text"><br>
-            Your Message: <input type="text"><br>
-            <input type="submit">
+                Name:</t> <input type="text" name="name"><br>
+                Email:</t> <input type="email" name="email"><br>
+            </p>
+            <p>
+                Your Message:<br>
+                <textarea name="message" rows="10" cols="50"></textarea>
+            </p>
+            <p>
+                <input type="submit">
             </p>
         </form>
 
