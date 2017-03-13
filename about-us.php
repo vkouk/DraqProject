@@ -53,7 +53,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="images/vkouk-photo.jpg" alt="Vasilis Koukoutis">
+			<img src="images/noikonomou-photo.jpg" alt="Athanasia Oikonomou">
 			<ul class="team-list">
 				<p>Athanasia Oikonomou - <span>Back End Developer</span></p>
 	            <li><a href="https://twitter.com/adamconnor">@adamconnor</a></li>

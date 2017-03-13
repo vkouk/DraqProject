@@ -36,6 +36,12 @@ a:hover {
   height: auto;
 }
 
+.breadcrumb {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /** Header - Nav **/
 
 header .navbar {
@@ -108,7 +114,7 @@ header .menu li > a:hover {
 
 /** 9/3/2017 Nassia: Added an additional margin to the ul-nav, to be fully centered with all the other elements.**/
 nav .nav-center{
-  margin-right:2px;
+  margin-right: 2px;
 }
 /** 2/3/2017 Bill: Changed dropdown menu divider color. **/
 .dropdown-menu .divider {
@@ -221,10 +227,62 @@ nav .nav-center{
   font-size: 2em;
 }
 
-.breadcrumb {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+/** Questionnaire Page **/ /** 11/3/2017 Bill: Created style for questionnaire page. **/
+
+.questionnaire {
+  position: relative;
+  margin: 10px auto;
+  max-width: 700px;
+  height: 350px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgba(208, 220, 239, .5);
+}
+
+.questionnaire-container {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.questionnaire-header {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  padding: 4px 8px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.questionnaire-footer {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+.caption {
+  margin: 10px;
+  float: left;
+  position: relative;
+}
+
+.caption span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 4px 8px;
+  margin: 0;
+  font-size: 14px;
+  background: rgba(43, 89, 162, 0.75);
+  color: #f5efef;
+  opacity: 0;
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  transition: opacity .5s linear;
 }
 
 .links{
