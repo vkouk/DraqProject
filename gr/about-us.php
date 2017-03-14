@@ -2,7 +2,7 @@
 <div class="row">
 	<div class="col-md-12">
 		<div class="team-info">
-			<img src="images/ptrokas-photo.jpg" alt="Petros Trokas">
+			<img src="../images/ptrokas-photo.jpg" alt="Petros Trokas">
 			<ul class="team-list">
 				<p>Petros Trokas - <span>Project Manager</span></p>
 	            <li>
@@ -23,7 +23,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="images/ialex-photo.jpg" alt="Alex Ioannou">
+			<img src="../images/ialex-photo.jpg" alt="Alex Ioannou">
 			<ul class="team-list">
 				<p>Alex Ioannou - <span>Web Designer & Editor</span></p>
 	            <li>
@@ -42,7 +42,7 @@
 	</div>
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="images/vkouk-photo.jpg" alt="Vasilis Koukoutis">
+			<img src="../images/vkouk-photo.jpg" alt="Vasilis Koukoutis">
 			<ul class="team-list">
 				<p>Stauros - <span>Front End Developer</span></p>
 	            <li><a href="https://twitter.com/adamconnor">@adamconnor</a></li>
@@ -54,7 +54,7 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="images/noikonomou-photo.jpg" alt="Athanasia Oikonomou">
+			<img src="../images/noikonomou-photo.jpg" alt="Athanasia Oikonomou">
 			<ul class="team-list">
 				<p>Athanasia Oikonomou - <span>Back End Developer</span></p>
 	            <li><a href="https://twitter.com/adamconnor">@adamconnor</a></li>
@@ -64,7 +64,7 @@
 	</div>
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="images/vkouk-photo.jpg" alt="Vasilis Koukoutis">
+			<img src="../images/vkouk-photo.jpg" alt="Vasilis Koukoutis">
 			<ul class="team-list">
 				<p>Vasilis Koukoutis - <span>Front End Developer</span></p>
 	            <li>
