@@ -1,47 +1,25 @@
 <div class="row">
-    <div class="col-xs-6">
-        <p>
-            If you wish to contact us, send us an email at emailadress@domain.com.
-        </p>
-
+    <div class="col-md-6">
+        <p>If you wish to contact us, send us an email at contact@draqmed.eu</p>
     </div>
-    <div class="col-xs-6">
-        <form  action="" method="">
-            <table>
-            <div class="tableRow">
-                <p>
-                    Name:
-                </p>
-                <p>
-                    <input type="text" name="name">
-                </p>
+    <div class="col-md-6">
+        <form action="contact.php" method="post">
+            <div class="form-group input-group">
+                <div class="input-group-addon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+                <input type="text" class="form-control" id="InputName" placeholder="Name">
+           </div>
+            <div class="form-group input-group">
+                <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                                
             </div>
-            <div class="tableRow">
-                <p>
-                    Email:
-                </p>
-                <p>
-                    <input type="email" name="email">
-                </p>
+            <div class="form-group input-group">
+                <div class="input-group-addon"><i class="fa fa-comments" aria-hidden="true"></i></div>
+                <textarea class="form-control" rows="3"></textarea>
             </div>
-
-            <div class="tableRow">
-                <p>
-                    Your Message:
-                </p>
-                <p>
-                <textarea name="message" rows="10" cols="50"></textarea>
-                </p>
+            <div class="form-group input-group">
+                <button type="submit" class="btn btn-lg btn-login"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Send</button>
             </div>
-            <div class="tableRow">
-                <p></p>
-                <p>
-                    <input type="submit">
-                </p>
-            </div>
-            </table>
-        </form>
-
-    </div>
-	
+        </form>   
+    </div>	
 </div> <!-- row -->

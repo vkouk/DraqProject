@@ -17,7 +17,7 @@
 					<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
 				</div>
 				<div class="col-sm-12 col-md-10 col-md-offset-1">
-					<form class="login-form" method="post" action="login.php">
+					<form method="post" action="login.php">
 						<div class="form-group input-group">
 					        <div class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
 					        <input class="form-control" id="username" type="text" name='username' placeholder="username"/>          

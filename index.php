@@ -47,19 +47,18 @@
 						<li><a href="index.php?page=contact.php">Contact</a></li>
 						<li><a href="index.php?page=useful-links.php">Useful Links</a></li>
 					</ul>
-			</div>
-		</nav> <!-- nav -->
-		<!-- 8/3/2017 Bill:Added breadcrumb for each page. -->
-        <!--9/3/2017 Altered breadcrumb code. -->
+				</div>
+			</nav> <!-- nav -->
+        <!-- 8/3/2017 Bill:Added breadcrumb for each page. 9/3/2017 Altered breadcrumb code. -->
         <div class="breadcrumb">
             <a href="index.php">Home</a>
              <a href="index.php?page=<?php echo $_GET['page'];  ?>">
                 <?php
-                if (isset($_GET['page'])) {
-                    $page_title = str_replace("-", " ", $_GET['page']);
-                    $path_parts = pathinfo($page_title);
-                    echo '/ '. ucwords($path_parts['filename']), "\n";
-                }
+	                if (isset($_GET['page'])) {
+	                	$page_title = str_replace("-", " ", $_GET['page']);
+	                    $path_parts = pathinfo($page_title);
+	                    echo '/ '. ucwords($path_parts['filename']), "\n";
+	                }
                 ?>
             </a>
         </div><!--Breadcrumb-->

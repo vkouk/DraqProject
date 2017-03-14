@@ -1,3 +1,4 @@
+<!-- 11/3/2017 Bill: Made diabetes page. -->
 <div class="row">
 	<div class="col-md-6 col-lg-4">
 		<a href="index.php?page=about-diabetes.php">

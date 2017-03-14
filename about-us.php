@@ -25,7 +25,7 @@
 		<div class="team-info">
 			<img src="images/ialex-photo.jpg" alt="Alex Ioannou">
 			<ul class="team-list">
-				<p>Alex Ioannou - <span>Tester</span></p>
+				<p>Alex Ioannou - <span>Web Designer & Editor</span></p>
 	            <li>
 	            	<a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 	            	<a href="mailto:#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -33,7 +33,8 @@
 	            </li>
 	            <li>
 	            	<p>
-	            		Networks & Security
+	            		"There is no place like 127.0.0.1"
+						Studying Networks and Security, currently on the second year. Avid coffee addict and gaming enthusiast. Planning on working abroad after I get my bachelor degree.
 	            	</p>
 	            </li>
         	</ul>
