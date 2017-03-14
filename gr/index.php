@@ -11,6 +11,10 @@
 </head>
 <body>
 	<header>
+		<ul class="nav navbar navbar-right">
+      		<li><a href="/"><span class="flag-icon flag-icon-gb flag-icon-squared"></span> </a></li>
+      		<li><a href="/gr"><span class="flag-icon flag-icon-gr flag-icon-squared"></span></a></li>
+    	</ul>
 		<nav class="nav navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -48,10 +52,6 @@
 						<li><a href="index.php?page=contact.php">Contact</a></li>
 						<li><a href="index.php?page=useful-links.php">Useful Links</a></li>
 					</ul>
-					<ul class="nav navbar navbar-right">
-      					<li><a href="/"><span class="flag-icon flag-icon-gb flag-icon-squared"></span> </a></li>
-      					<li><a href="/gr"><span class="flag-icon flag-icon-gr flag-icon-squared"></span></a></li>
-    				</ul>
 				</div>
 			</nav> <!-- nav -->
         <!-- 8/3/2017 Bill:Added breadcrumb for each page. 9/3/2017 Altered breadcrumb code. -->
