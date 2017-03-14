@@ -8,7 +8,7 @@ try {
   $conn= new PDO($dsn,$adminuser, $password);
 
 } catch(PDOException $e) {
-    echo "Error!: ".$e->getMessage()."</br>";
+    echo "Error!: ". $e->getMessage()."</br>";
 }
 
 ?>

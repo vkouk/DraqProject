@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Draq - Diabetes Risk Assessment Questionnaire</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/flag-icon.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/flag-icon.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -19,7 +19,7 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>                        
 	      			</button>
-					<a href="index.php"><img class="img-responsive" src="images/logo.png" alt="Draq Logo"></a>
+					<a href="index.php"><img class="img-responsive" src="../images/logo.png" alt="Draq Logo"></a>
 					<p class="draq-text">Diabetes Risk Assessment Questionnaire</p>
 				</div>
 			</div> <!-- container -->
@@ -94,10 +94,10 @@
 	      			</p>
 	      		</div> <!-- col-md-6 -->
 	      		<div class="col-md-3">
-	      			<a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive" src="images/logo-derby.png" alt="MedCollege Logo"></a>
+	      			<a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive" src="../images/logo-derby.png" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-md-3 -->
 	      		<div class="col-md-3">
-	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive" src="images/logo-med.png" alt="MedCollege Logo"></a>
+	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive" src="../images/logo-med.png" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-md-3 -->
 	    	</div> <!-- row -->
 	    </div> <!-- container -->
@@ -105,6 +105,6 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="../js/app.js"></script>
 </body>
 </html>
