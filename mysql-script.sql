@@ -24,12 +24,12 @@ family_history  ENUM('No', 'yes-second-relation', 'yes-first-relation'),
 risk            ENUM('1', '2', '3', '4', '5')
 } ENGINE=MariaDB DEFAULT CHARSET=latin1;
 
-CREATE TABLE IF NOT EXISTS 'administrators'{
+CREATE TABLE IF NOT EXISTS 'administrators'(
 id              INT(5) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 username        VARCHAR(20),
 password        VARCHAR(20)
 
-}ENGINE=MariaDB DEFAULT CHARSET=latin1;
+)};
 
 INSERT INTO 'administrators'('username', 'password')VALUES
 ('pru0_diabrisk', 'vuHgu6W'),

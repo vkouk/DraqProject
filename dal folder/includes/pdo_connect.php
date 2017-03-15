@@ -1,9 +1,9 @@
 <?php
 try {
 
-  $dsn = "mysql:host=localhost;dbname=draqmeddb";
-  $adminuser ="draqmedadmin";
-  $password= "test1234!@#$";
+  $dsn = "mysql:host=db24.papaki.gr:3306;dbname=n91264atha_diabetesdb";
+  $adminuser ="n9126_diabadmin";
+  $password= "diab9#ad2Cq5&";
 
   $conn= new PDO($dsn,$adminuser, $password);
 
