@@ -22,6 +22,17 @@ jQuery(document).ready(function($) {
 		  });
 	}
 
+	// 15/3/2017 Bill: Added code for do-the-test thing.
+	$('.questionnaire-intro a').on('click', function(e) {
+		e.preventDefault();
+		setTimeout( function() {
+    		$('.questionnaire').css({
+    			'margin-top': '0'
+    		});
+       	},500);
+        $('.questionnaire-intro a').css('display', 'none');
+	});
+
 	// 11/3/2017 Bill: Added opacity hover effect for image caption.
 	$('.caption').hover(function() {
 		$(this).find("span").css("opacity", ".6");

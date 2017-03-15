@@ -253,6 +253,11 @@ nav .nav-center{
 .questionnaire {
   position: relative;
   margin: 10px auto;
+  margin-top: -1000px;
+  transition: margin-top .8s ease;
+  -webkit-transition: margin-top .8s ease;
+  -moz-transition: margin-top .8s ease;
+  -o-transition: margin-top .8s ease;
   max-width: 700px;
   height: 350px;
   border: 1px solid #ffffff;
@@ -282,6 +287,17 @@ nav .nav-center{
   position: absolute;
   bottom: 0;
   right: 30px;
+}
+
+.questionnaire-intro {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.questionnaire-intro a {
+  border: 1px solid #2b59a2;
+  padding: 20px;
+  text-transform: uppercase;
 }
 
 .caption {
@@ -331,6 +347,8 @@ nav .nav-center{
 .diabetes-page h3 { text-align: center; }
 
 .diabetes-page span { padding: 8px 0; }
+
+.diabetes-page > p { text-align: justify; }
 
 .diabetes-page h3 , h4 {
   font-weight: bold;
