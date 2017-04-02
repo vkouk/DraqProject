@@ -25,19 +25,19 @@ jQuery(document).ready(function($) {
 	// 15/3/2017 Bill: Added code for do-the-test thing.
 	$('.questionnaire-intro a').on('click', function(e) {
 		e.preventDefault();
-		setTimeout( function() {
+		setTimeout(function() {
     		$('.questionnaire').css({
     			'margin-top': '0'
     		});
-       	},500);
+       	}, 500);
         $('.questionnaire-intro a').css('display', 'none');
 	});
 
 	// 11/3/2017 Bill: Added opacity hover effect for image caption.
 	$('.caption').hover(function() {
-		$(this).find("span").css("opacity", ".6");
+		$(this).children("span").css("opacity", ".6");
 		}, function() {
-        $(this).find("span").css("opacity", "0");
+        $(this).children("span").css("opacity", "0");
 	});
 
 	// 2/3/2017 Bill: Added slideToggle effect for dropdown menu.
@@ -45,4 +45,35 @@ jQuery(document).ready(function($) {
 	$('.dropdown').hover(function() {
 		$(this).children('.nav-subtab').stop(true, false, true).slideToggle(650);
 	});
+
+	quest_init();
 });
+
+function quest_init() {
+	var question = 0;
+	var questItem = $('.questionnaire .question');
+
+	//Next Question
+	$('.questionnaire-footer .next-quest').on('click', function() {
+		var instance = $(this);
+		if (questItem.length -1 < question) {
+			return;
+		}
+		$(questItem[question]).addClass('active');
+		$('.questionnaire .question').addClass('inactive');
+		$('#' + questItem[question + 1].dataset.id).removeClass('inactive');
+		question++;
+	});
+
+	//Last Question
+	$('.questionnaire-footer .prev-quest').on('click', function() {
+		var instance = $(this);
+		$(questItem[question]).removeClass('active');
+		$('.questionnaire .question').addClass('inactive');
+		$('#' + questItem[question].dataset.id).removeClass('inactive');
+		if (question <= 0) {
+			return;
+		}
+		question--;
+	});
+}

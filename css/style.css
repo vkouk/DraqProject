@@ -113,9 +113,10 @@ header .menu li > a:hover {
 }
 
 /** 9/3/2017 Nassia: Added an additional margin to the ul-nav, to be fully centered with all the other elements.**/
-nav .nav-center{
+nav .nav-center {
   margin-right: 2px;
 }
+
 /** 2/3/2017 Bill: Changed dropdown menu divider color. **/
 .dropdown-menu .divider {
   background-color: #c0cddb;
@@ -254,10 +255,10 @@ nav .nav-center{
   position: relative;
   margin: 10px auto;
   margin-top: -1000px;
-  transition: margin-top .8s ease;
-  -webkit-transition: margin-top .8s ease;
-  -moz-transition: margin-top .8s ease;
-  -o-transition: margin-top .8s ease;
+  transition: margin-top .9s ease-out;
+  -webkit-transition: margin-top .9s ease-out;
+  -moz-transition: margin-top .9s ease-out;
+  -o-transition: margin-top .9s ease-out;
   max-width: 700px;
   height: 350px;
   border: 1px solid #ffffff;
@@ -266,7 +267,7 @@ nav .nav-center{
   background-color: rgba(208, 220, 239, .5);
 }
 
-.questionnaire-container {
+.questionnaire-content {
   position: absolute;
   top: 80px;
   left: 50px;
@@ -298,6 +299,25 @@ nav .nav-center{
   border: 1px solid #2b59a2;
   padding: 20px;
   text-transform: uppercase;
+  background-color: #f5efef;
+  color: #2b59a2;
+  -webkit-transition:  background-color .5s ease-out, color .5s ease-out;
+  -moz-transition: background-color .5s ease-out, color .5s ease-out;
+  -o-transition: background-color .5s ease-out, color .5s ease-out;
+  transition: background-color .5s ease-out, color .5s ease-out;
+}
+
+.questionnaire-intro a:hover {
+  background-color: #2b59a2;
+  color: #f5efef;
+}
+
+.questionnaire .question.inactive {
+  display: none;
+}
+
+.questionnaire .question.active {
+  display: block;
 }
 
 .caption {
