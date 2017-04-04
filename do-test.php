@@ -1,3 +1,69 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Nassia
+ * Date: 4/4/2017
+ * Time: 12:36
+ */
+
+require_once 'dal/core/init.php';
+
+if(input::exists()){
+
+    $validate = new Validate();
+    $validation = $validate->check($_POST, array(
+        'session_id'=>array(
+        ),
+        'region'=>array(),
+        'gender'=>array(),
+        'age'=>array(),
+        'weight'=>array(),
+        'height'=>array(),
+        'bmi'=>array(),
+        'waist'=>array(),
+        'activity'=>array(),
+        'food_habit'=>array(),
+        'hbp'=>array(),
+        'blood_sugar'=>array(),
+        'family_history'=>array(),
+        'risk'=>array()
+    ));
+
+    if($validation->passed()){
+        $draq = new Draq();
+
+        try{
+            $draq->insertData(array(
+                'session_id'=>Session::get(config::get('session/sessionName')),
+                'region'=>input::get('diabetes-ques[geo]'),
+                'gender'=>input::get('gender'),
+                'age'=>input::get('age'),
+                'weight'=>input::get('weight'),
+                'height'=>input::get('height'),
+                'bmi'=>input::get('bmi'),
+                'waist'=>input::get('waist'),
+                'activity'=>input::get('activity'),
+                'food_habit'=>input::get('food_habit'),
+                'hbp'=>input::get('hbp'),
+                'blood_sugar'=>input::get('blood_sugar'),
+                'family_history'=>input('family_history'),
+                'risk'=>input::get('risk')
+
+            ));
+        } catch (Exception $e){
+            die ($e->getMessage());
+        }
+    }
+    else{
+        foreach($validation->errors() as $error){
+            echo "<p class='alert-p'>" . $error . '</br>' . "</p>";
+        }
+    }
+}
+
+?>
+
+
 <!-- 11/3/2017 Bill: Start making our do test questionnaire page. -->
 <div class="row">
 	<div class="col-md-12 col-lg-12">
