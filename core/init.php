@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+error_reporting(0);
+
 $GLOBALS['config'] = array(
     'mysql' => array(
         'host'=>'db24.papaki.gr:3306',
@@ -11,7 +13,7 @@ $GLOBALS['config'] = array(
 
     'session'=> array(
         'session_name'=>'user',
-        'token_name'=>'token'
+
     ),
     'draqtest'=>array(
 

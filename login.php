@@ -1,3 +1,38 @@
+<!--6/4/2017 Nassia: Inserted back-end validation code.-->
+
+<?php
+
+require_once 'core/init.php';
+
+if (input::exists()) {
+
+        $validate = new Validate();
+
+        $validation = $validate->check($_POST, array(
+            'username' => array('required' => true),
+            'password' => array('required' => true),
+
+        ));
+
+        if ($validation->passed()) {
+            $user = new User();
+
+            $login = $user->login(input::get('username'), input::get('password'));
+
+            if ($login) {
+                header('Location:dashboard.php'); //will create dashboard.php
+            } else {
+                echo '<p>Login failed</p>';
+            }
+
+        } else {
+            foreach ($validation->errors() as $error) {
+                echo "<p class='alert-p'>" . $error . '</br>' . "</p>";
+            }
+        }
+}
+?>
+
 <!-- 7/3/2017 Bill:Made Login Page. -->
 <!DOCTYPE html>
 <html lang="en">
