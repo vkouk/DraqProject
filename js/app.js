@@ -54,6 +54,8 @@ function questionnaire() {
 	var questItem = $('.questionnaire .question');
 	var _this = $(this);
 
+    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
+
 	//Next Question
 	$('.questionnaire-footer .next-quest').on('click', function() {
 
@@ -62,8 +64,6 @@ function questionnaire() {
 		$('#' + questItem[question + 1].dataset.id).removeClass('inactive');
 		question++;
 	});
-
-    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
 
 	//Last Question
 	$('.questionnaire-footer .prev-quest').on('click', function() {
@@ -77,5 +77,7 @@ function questionnaire() {
 		question--;
 	});
 
-    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
+    /*if (question === 12) {
+        $('.questionnaire-footer').find('a').replaceWith("<span>Complete your questionnaire</span>");
+	} add complete button.*/
 }
