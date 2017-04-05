@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee87345e-7c6f-40ed-952e-68e00febc3e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/loginForm.php" afterPath="$PROJECT_DIR$/classes/loginForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/user.php" afterPath="$PROJECT_DIR$/classes/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +16,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.4850088">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/classes/user.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="608">
+                  <caret line="80" column="43" lean-forward="false" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +51,8 @@
           <file leaf-file-name="Validate.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/classes/Validate.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+                <state relative-caret-position="399">
+                  <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -103,11 +98,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/login.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+                <state relative-caret-position="228">
+                  <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
                   <folding>
                     <marker date="1491430132472" expanded="true" signature="1678:1849" ph="..." />
                     <marker date="1491430132472" expanded="true" signature="1958:2126" ph="..." />
@@ -148,9 +143,9 @@
         <option value="$PROJECT_DIR$/do-test.php" />
         <option value="$PROJECT_DIR$/core/init.php" />
         <option value="$PROJECT_DIR$/classes/loginForm.php" />
-        <option value="$PROJECT_DIR$/classes/user.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/classes/user.php" />
       </list>
     </option>
   </component>
@@ -367,12 +362,12 @@
       <workItem from="1491252449230" duration="2153000" />
       <workItem from="1491293978744" duration="8270000" />
       <workItem from="1491421657414" duration="336000" />
-      <workItem from="1491422066930" duration="5994000" />
+      <workItem from="1491422066930" duration="6404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16753000" />
+    <option name="totallyTimeSpent" value="17163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -705,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Validate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -725,14 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -757,12 +736,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+        <state relative-caret-position="228">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
           <folding>
             <marker date="1491430132472" expanded="true" signature="1678:1849" ph="..." />
             <marker date="1491430132472" expanded="true" signature="1958:2126" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Validate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="80" column="43" lean-forward="false" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

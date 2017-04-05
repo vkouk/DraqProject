@@ -78,7 +78,7 @@ class User
 
 
             if ($user) {
-                if ($this->data()->password === Hash::make($password, $this->data()->salt)) {
+                if ($this->data()->password) {
                     Session::put($this->_sessionName, $this->data()->id);
 
                     return true;
