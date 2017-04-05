@@ -6,13 +6,14 @@
  * Time: 12:36
  */
 
-require_once 'dal/core/init.php';
+require_once 'core/init.php';
 
 if(input::exists()){
 
     $validate = new Validate();
     $validation = $validate->check($_POST, array(
         'session_id'=>array(
+                'required'=>true
         ),
         'region'=>array(),
         'gender'=>array(),
@@ -35,7 +36,7 @@ if(input::exists()){
         try{
             $draq->insertData(array(
                 'session_id'=>Session::get(config::get('session/sessionName')),
-                'region'=>input::get('diabetes-ques[geo]'),
+                'region'=>input::get('region'),
                 'gender'=>input::get('gender'),
                 'age'=>input::get('age'),
                 'weight'=>input::get('weight'),
@@ -62,7 +63,6 @@ if(input::exists()){
 }
 
 ?>
-
 
 <!-- 11/3/2017 Bill: Start making our do test questionnaire page. -->
 <div class="row">

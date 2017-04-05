@@ -28,17 +28,17 @@ spl_autoload_register(function($class){
 
 require_once 'functions/sanitize.php';
 
-if(Cookie::exists(config::get('remember/cookie_name')) && !Session::exists(config::get('session/session_name'))){
-    $hash = Cookie::get(config::get('remember/cookie_name'));
-    $hashCheck = DB::getInstance()->get('user_session', array('hash','=', $hash));
-
-    if($hashCheck->count()){
-
-        $user = new User($hashCheck->first()->user_id);
-        $user->login();
-    }
-
-}
+//if(Cookie::exists(config::get('remember/cookie_name')) && !Session::exists(config::get('session/session_name'))){
+//    $hash = Cookie::get(config::get('remember/cookie_name'));
+//    $hashCheck = DB::getInstance()->get('user_session', array('hash','=', $hash));
+//
+//    if($hashCheck->count()){
+//
+//        $user = new User($hashCheck->first()->user_id);
+//        $user->login();
+//    }
+//
+//}
 
 
 ?>
