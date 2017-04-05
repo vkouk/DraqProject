@@ -10,14 +10,14 @@ if (input::exists()) {
 
         $validation = $validate->check($_POST, array(
             'username' => array('required' => true),
-            'password' => array('required' => true),
+            'pswd' => array('required' => true),
 
         ));
 
         if ($validation->passed()) {
             $user = new User();
 
-            $login = $user->login(input::get('username'), input::get('password'));
+            $login = $user->login(input::get('username'), input::get('pswd'));
 
             if ($login) {
                 header('Location:dashboard.php'); //will create dashboard.php
