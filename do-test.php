@@ -72,7 +72,7 @@ if(input::exists()){
 		</div>
 		<form name="diabetes-ques" class="questionnaire" action="/" method="post" autocomplete="off">
 			<section class="question geo" data-name="region" data-id="region">
-				<h3 class="questionnaire-header">1.Which geographical region do you belong to?</h3>
+				<h3 class="questionnaire-header">1.What is your region n Greece?</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
 						<select name="diabetes-ques[region]" id="region" required="required" aria-required="true">
@@ -93,7 +93,7 @@ if(input::exists()){
 				</div> <!-- questionnaire-content -->
 			</section>
 			<section class="question gender inactive" data-name="gender" data-id="gender">
-				<h3 class="questionnaire-header">2.Are you a male or female?</h3>
+				<h3 class="questionnaire-header">2.Please specify your gender.</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
 						 <input type="radio" id="gender_1" name="diabetes-ques[gender]" value="M" required="required" aria-required="true">Male<br>
@@ -105,7 +105,7 @@ if(input::exists()){
 				</div> <!-- questionnaire-content -->
 			</section>
 			<section class="question age inactive" data-name="age" data-id="age">
-				<h3 class="questionnaire-header">3.How old are you?</h3>
+				<h3 class="questionnaire-header">3.Please specify your age.</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
 						 <input type="radio" id="age" name="diabetes-ques[age]" value="0" required="required" aria-required="true">Younger than 45 years old.<br>
@@ -118,11 +118,123 @@ if(input::exists()){
 					</div> <!-- col-md-12 col-lg-6 -->
 				</div> <!-- questionnaire-content -->
 			</section>
+            <section class="question weight inactive" data-name="weight" data-id="weight">
+                <h3 class="questionnaire-header">4.How much do you weight?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="number" id="weight" name="diabetes-ques[weight]" min="1" max="300" required="required" aria-required="true">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question4.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question height inactive" data-name="height" data-id="height">
+                <h3 class="questionnaire-header">5.What is your height?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="number" id="weight" name="diabetes-ques[height]" min="1" max="3" required="required" aria-required="true">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question5.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question bmi inactive" data-name="bmi" data-id="bmi">
+                <h3 class="questionnaire-header">6.Bmi</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <p>Your BMI is //todo..</p>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question6.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question waist inactive" data-name="waist" data-id="waist">
+                <h3 class="questionnaire-header">7.What is your waist size?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <p>todo - check gender</p>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question7.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question activity inactive" data-name="activity" data-id="activity">
+                <h3 class="questionnaire-header">8.Do you exercise often?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="radio" id="activity_1" name="diabetes-ques[activity]" value="Y" required="required" aria-required="true">Yes<br>
+                        <input type="radio" id="activity_2" name="diabetes-ques[activity]" value="N" required="required" aria-required="true">No<br>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question8.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question food_habit inactive" data-name="food_habit" data-id="food_habit">
+                <h3 class="questionnaire-header">9.How often do you eat fruits or vegetables?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="radio" id="food_habit_1" name="diabetes-ques[food_habit]" value="D" required="required" aria-required="true">Daily<br>
+                        <input type="radio" id="food_habit_2" name="diabetes-ques[food_habit]" value="ND" required="required" aria-required="true">Not Daily<br>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question9.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question hbp inactive" data-name="hbp" data-id="hbp">
+                <h3 class="questionnaire-header">10.Have you taken high blood preasure medication?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="radio" id="hbp_1" name="diabetes-ques[hbp]" value="Y" required="required" aria-required="true">Yes<br>
+                        <input type="radio" id="hbp_2" name="diabetes-ques[hbp]" value="N" required="required" aria-required="true">No<br>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question10.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question blood_sugar inactive" data-name="blood_sugar" data-id="blood_sugar">
+                <h3 class="questionnaire-header">11.Have you ever had high blood sugar levels?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="radio" id="blood_sugar_1" name="diabetes-ques[blood_sugar]" value="Y" required="required" aria-required="true">Yes<br>
+                        <input type="radio" id="blood_sugar_2" name="diabetes-ques[blood_sugar]" value="N" required="required" aria-required="true">No<br>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question11.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question family_history inactive" data-name="family_history" data-id="family_history">
+                <h3 class="questionnaire-header">12.Do you have a close relative with type 1 or 2 diabetes?</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="radio" id="family_history_1" name="diabetes-ques[family_history]" value="N" required="required" aria-required="true">No<br>
+                        <input type="radio" id="family_history_2" name="diabetes-ques[family_history]" value="YGUAC" required="required" aria-required="true">Yes (GrandFather - Uncle - Aunt - Cousin)<br>
+                        <input type="radio" id="family_history_3" name="diabetes-ques[family_history]" value="YPBSC" required="required" aria-required="true">Yes (Parent - Brother - Sister or Child)<br>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                        <img class="img-responsive" src="images/quest-icons/question12.png" alt="">
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
+            <section class="question risk inactive" data-name="risk" data-id="risk">
+                <h3 class="questionnaire-header">Your result</h3>
+                <div class="questionnaire-content">
+                    <div class="col-md-12 col-lg-12">
+                        <p>todo</p>
+                    </div> <!-- col-md-12 col-lg-6 -->
+                </div> <!-- questionnaire-content -->
+            </section>
 			<div class="questionnaire-footer">
 				<div class="col-xs-12 col-md-12 col-lg-12">
-					<a class="prev-quest" href="#"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
-					<span></span>
-					<a class="next-quest" href="#"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+					<a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+					<a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
 				</div>
 			</div> <!-- questionnaire-footer -->
 		</form> <!-- questionnaire -->

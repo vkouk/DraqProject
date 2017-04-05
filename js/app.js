@@ -50,27 +50,24 @@ jQuery(document).ready(function($) {
 });
 
 function questionnaire() {
-	var question = 0;
+	var question = 1;
 	var questItem = $('.questionnaire .question');
 	var _this = $(this);
 
 	//Next Question
 	$('.questionnaire-footer .next-quest').on('click', function() {
-		var instance = $(this);
-		if (questItem.length -1 < question) {
-			return;
-		}
+
 		$(questItem[question]).addClass('active');
 		$('.questionnaire .question').addClass('inactive');
 		$('#' + questItem[question + 1].dataset.id).removeClass('inactive');
 		question++;
-
-		$('.questionnaire-footer').find('span').text("Question " + question + " of 11");
 	});
+
+    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
 
 	//Last Question
 	$('.questionnaire-footer .prev-quest').on('click', function() {
-		var instance = $(this);
+
 		$(questItem[question]).removeClass('active');
 		$('.questionnaire .question').addClass('inactive');
 		$('#' + questItem[question].dataset.id).removeClass('inactive');
@@ -78,7 +75,7 @@ function questionnaire() {
 			return;
 		}
 		question--;
-
-        $('.questionnaire-footer').find('span').text("Question " + question + " of 11");
 	});
+
+    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
 }
