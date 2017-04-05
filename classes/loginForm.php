@@ -12,8 +12,4 @@ class LoginForm
         $this->password= $password;
 }
 
-public function getStartTag() {
-
-}
-
 ?>
