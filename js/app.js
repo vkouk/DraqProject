@@ -46,12 +46,13 @@ jQuery(document).ready(function($) {
 		$(this).children('.nav-subtab').stop(true, false, true).slideToggle(650);
 	});
 
-	quest_init();
+    questionnaire();
 });
 
-function quest_init() {
+function questionnaire() {
 	var question = 0;
 	var questItem = $('.questionnaire .question');
+	var _this = $(this);
 
 	//Next Question
 	$('.questionnaire-footer .next-quest').on('click', function() {
@@ -63,6 +64,8 @@ function quest_init() {
 		$('.questionnaire .question').addClass('inactive');
 		$('#' + questItem[question + 1].dataset.id).removeClass('inactive');
 		question++;
+
+		$('.questionnaire-footer').find('span').text("Question " + question + " of 11");
 	});
 
 	//Last Question
@@ -75,5 +78,7 @@ function quest_init() {
 			return;
 		}
 		question--;
+
+        $('.questionnaire-footer').find('span').text("Question " + question + " of 11");
 	});
 }

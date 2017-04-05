@@ -46,7 +46,7 @@ if(input::exists()){
                 'food_habit'=>input::get('food_habit'),
                 'hbp'=>input::get('hbp'),
                 'blood_sugar'=>input::get('blood_sugar'),
-                'family_history'=>input('family_history'),
+                'family_history'=>input::get('family_history'),
                 'risk'=>input::get('risk')
 
             ));
@@ -71,11 +71,11 @@ if(input::exists()){
 			<a href="#">Do The Test</a>
 		</div>
 		<form name="diabetes-ques" class="questionnaire" action="/" method="post" autocomplete="off">
-			<section class="question geo" data-name="geo" data-id="geo">
+			<section class="question geo" data-name="region" data-id="region">
 				<h3 class="questionnaire-header">1.Which geographical region do you belong to?</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
-						<select name="diabetes-ques[geo]" id="geo" required="required" aria-required="true">
+						<select name="diabetes-ques[region]" id="region" required="required" aria-required="true">
 							<option value="Sterea Ellada">Sterea Ellada</option>
 							<option value="Makedonia">Makedonia</option>
 							<option value="Thraki">Thraki</option>
@@ -121,7 +121,7 @@ if(input::exists()){
 			<div class="questionnaire-footer">
 				<div class="col-xs-12 col-md-12 col-lg-12">
 					<a class="prev-quest" href="#"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
-					<span>Question 1 of 11</span>
+					<span></span>
 					<a class="next-quest" href="#"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
 				</div>
 			</div> <!-- questionnaire-footer -->
