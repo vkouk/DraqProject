@@ -10,19 +10,19 @@ if (input::exists()) {
 
         $validation = $validate->check($_POST, array(
             'username' => array('required' => true),
-            'pswd' => array('required' => true),
+            'password' => array('required' => true),
 
         ));
 
         if ($validation->passed()) {
             $user = new User();
 
-            $login = $user->login(input::get('username'), input::get('pswd'));
+            $login = $user->login(input::get('username'), input::get('password'));
 
             if ($login) {
-                header('Location:dashboard.php'); //will create dashboard.php
+                header("Location:dashboard.php");
             } else {
-                echo '<p>Login failed</p>';
+                echo 'Login failed';
             }
 
         } else {
@@ -59,7 +59,7 @@ if (input::exists()) {
 	          			</div>
 						<div class="form-group input-group">
 					        <div class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></div>
-					        <input class="form-control" id="pswd" type="password" name='pswd' placeholder="password"/>          
+					        <input class="form-control" id="password" type="password" name='password' placeholder="password"/>
 	          			</div>
 	  					<div class="form-group">
 	            			<button type="submit" class="btn btn-block btn-login"><i class="fa fa-check" aria-hidden="true"></i> Sign in</button>

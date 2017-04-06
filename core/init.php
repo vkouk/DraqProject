@@ -5,10 +5,10 @@ error_reporting(0);
 
 $GLOBALS['config'] = array(
     'mysql' => array(
-        'host'=>'db24.papaki.gr:3306',
-        'username'=>'n9126_diabadmin',
-        'password'=>'diab9#ad2Cq5&',
-        'db'=>'n91264atha_diabetesdb'
+        'host'=>'127.0.0.1',     //db24.papaki.gr:3306
+        'username'=>'nassia',    //n9126_diabadmin
+        'password'=>'test1234',  //diab9#ad2Cq5&
+        'db'=>'diabetesdb'       // n91264atha_diabetesdb
     ),
 
     'session'=> array(

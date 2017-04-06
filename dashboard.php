@@ -15,7 +15,7 @@
 
 <body>
 
-<h1 style="vertical-align:center; text-align:justify">This is a future dashboard</h1>
+<h1 style="vertical-align:center; text-align:justify;">This is a future dashboard</h1>
 
 </body>
 
