@@ -54,30 +54,44 @@ function questionnaire() {
 	var questItem = $('.questionnaire .question');
 	var _this = $(this);
 
-    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
-
 	//Next Question
 	$('.questionnaire-footer .next-quest').on('click', function() {
-
+		if (questItem.length -1 < question) {
+			return;
+		}
+		/*if (question === (questItem.length - 2)) {
+			_this.addClass('inactive');
+			_this.siblings('a.finish-quest').removeClass('inactive');
+		}
 		$(questItem[question]).addClass('active');
-		$('.questionnaire .question').addClass('inactive');
+		$('.questionnaire-content').addClass('inactive');*/
+
+        $(questItem[question]).addClass('active');
+        $('.questionnaire .question .questionnaire-content').addClass('inactive');
 		$('#' + questItem[question + 1].dataset.id).removeClass('inactive');
 		question++;
 	});
 
-	//Last Question
+	//Previous Question
 	$('.questionnaire-footer .prev-quest').on('click', function() {
-
 		$(questItem[question]).removeClass('active');
-		$('.questionnaire .question').addClass('inactive');
+        if (question === (questItem.length - 1)) {
+            _this.siblings('.next-quest').removeClass('inactive');
+            _this.siblings('.finish-quest').addClass('inactive');
+        }
+		$('.questionnaire-content').addClass('inactive');
 		$('#' + questItem[question].dataset.id).removeClass('inactive');
-		if (question <= 0) {
+		if (question < 1) {
 			return;
 		}
 		question--;
 	});
 
-    /*if (question === 12) {
-        $('.questionnaire-footer').find('a').replaceWith("<span>Complete your questionnaire</span>");
-	} add complete button.*/
+    //Last Question
+    $('.questionnaire-footer .finish-quest').on('click', function() {
+        //todo
+    });
+
+
+    $('.questionnaire-footer').find('a:first-child').after(" <span>Question </span>" + question + "<span> of 12</span> ");
 }

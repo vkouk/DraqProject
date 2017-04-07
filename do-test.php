@@ -71,7 +71,7 @@ if(input::exists()){
 			<a href="#">Do The Test</a>
 		</div>
 		<form name="diabetes-ques" class="questionnaire" action="/" method="post" autocomplete="off">
-			<section class="question geo" data-name="region" data-id="region">
+			<section class="question geo" data-name="region" data-id="region1">
 				<h3 class="questionnaire-header">1.What is your region n Greece?</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
@@ -91,8 +91,15 @@ if(input::exists()){
 						<img class="img-responsive" src="images/quest-icons/question1.png" alt="">
 					</div> <!-- col-md-12 col-lg-6 -->
 				</div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
 			</section>
-			<section class="question gender inactive" data-name="gender" data-id="gender">
+			<section class="question gender inactive" data-name="gender" data-id="gender2">
 				<h3 class="questionnaire-header">2.Please specify your gender.</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
@@ -103,8 +110,15 @@ if(input::exists()){
 						<img class="img-responsive" src="images/quest-icons/question2.png" alt="">
 					</div> <!-- col-md-12 col-lg-6 -->
 				</div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
 			</section>
-			<section class="question age inactive" data-name="age" data-id="age">
+			<section class="question age inactive" data-name="age" data-id="age3">
 				<h3 class="questionnaire-header">3.Please specify your age.</h3>
 				<div class="questionnaire-content">
 					<div class="col-md-12 col-lg-6">
@@ -117,8 +131,15 @@ if(input::exists()){
 						<img class="img-responsive" src="images/quest-icons/question3.png" alt="">
 					</div> <!-- col-md-12 col-lg-6 -->
 				</div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
 			</section>
-            <section class="question weight inactive" data-name="weight" data-id="weight">
+            <section class="question weight inactive" data-name="weight" data-id="weight4">
                 <h3 class="questionnaire-header">4.How much do you weight?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -129,7 +150,7 @@ if(input::exists()){
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
             </section>
-            <section class="question height inactive" data-name="height" data-id="height">
+            <section class="question height inactive" data-name="height" data-id="height5">
                 <h3 class="questionnaire-header">5.What is your height?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -139,8 +160,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question5.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question bmi inactive" data-name="bmi" data-id="bmi">
+            <section class="question bmi inactive" data-name="bmi" data-id="bmi6">
                 <h3 class="questionnaire-header">6.Bmi</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -150,8 +178,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question6.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question waist inactive" data-name="waist" data-id="waist">
+            <section class="question waist inactive" data-name="waist" data-id="waist7">
                 <h3 class="questionnaire-header">7.What is your waist size?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -161,8 +196,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question7.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question activity inactive" data-name="activity" data-id="activity">
+            <section class="question activity inactive" data-name="activity" data-id="activity8">
                 <h3 class="questionnaire-header">8.Do you exercise often?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -173,8 +215,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question8.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question food_habit inactive" data-name="food_habit" data-id="food_habit">
+            <section class="question food_habit inactive" data-name="food_habit" data-id="food_habit9">
                 <h3 class="questionnaire-header">9.How often do you eat fruits or vegetables?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -185,8 +234,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question9.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question hbp inactive" data-name="hbp" data-id="hbp">
+            <section class="question hbp inactive" data-name="hbp" data-id="hbp10">
                 <h3 class="questionnaire-header">10.Have you taken high blood preasure medication?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -197,8 +253,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question10.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question blood_sugar inactive" data-name="blood_sugar" data-id="blood_sugar">
+            <section class="question blood_sugar inactive" data-name="blood_sugar" data-id="blood_sugar11">
                 <h3 class="questionnaire-header">11.Have you ever had high blood sugar levels?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -209,8 +272,15 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question11.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-            <section class="question family_history inactive" data-name="family_history" data-id="family_history">
+            <section class="question family_history inactive" data-name="family_history" data-id="family_history12">
                 <h3 class="questionnaire-header">12.Do you have a close relative with type 1 or 2 diabetes?</h3>
                 <div class="questionnaire-content">
                     <div class="col-md-12 col-lg-6">
@@ -222,6 +292,13 @@ if(input::exists()){
                         <img class="img-responsive" src="images/quest-icons/question12.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
             <section class="question risk inactive" data-name="risk" data-id="risk">
                 <h3 class="questionnaire-header">Your result</h3>
@@ -230,13 +307,13 @@ if(input::exists()){
                         <p>todo</p>
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div> <!-- questionnaire-content -->
+                <div class="questionnaire-footer">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                        <a class="finish-quest out"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div> <!-- questionnaire-footer -->
             </section>
-			<div class="questionnaire-footer">
-				<div class="col-xs-12 col-md-12 col-lg-12">
-					<a class="prev-quest"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
-					<a class="next-quest"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
-				</div>
-			</div> <!-- questionnaire-footer -->
 		</form> <!-- questionnaire -->
 	</div> <!-- col-md-12 col-lg-12 -->
 </div> <!-- row -->

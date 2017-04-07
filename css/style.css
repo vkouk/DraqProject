@@ -286,7 +286,7 @@ nav .nav-center {
 
 .questionnaire-footer {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 30px;
 }
 
@@ -312,11 +312,13 @@ nav .nav-center {
   color: #f5efef;
 }
 
-.questionnaire .question.inactive {
+.questionnaire .question.inactive,
+.questionnaire-footer .finish-quest.out {
   display: none;
 }
 
-.questionnaire .question.active {
+.questionnaire .question.active,
+.questionnaire-footer .finish-quest.active {
   display: block;
 }
 
