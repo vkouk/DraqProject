@@ -322,6 +322,11 @@ nav .nav-center {
   display: block;
 }
 
+.questionnaire-count {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .caption {
   margin: 10px;
   float: left;
