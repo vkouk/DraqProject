@@ -15,19 +15,47 @@ if(input::exists()){
         'session_id'=>array(
             'required'=>true
         ),
-        'region'=>array(),
-        'gender'=>array(),
-        'age'=>array(),
-        'weight'=>array(),
-        'height'=>array(),
-        'bmi'=>array(),
-        'waist'=>array(),
-        'activity'=>array(),
-        'food_habit'=>array(),
-        'hbp'=>array(),
-        'blood_sugar'=>array(),
-        'family_history'=>array(),
-        'risk'=>array()
+        'region'=>array(
+                'required'=>true
+        ),
+        'gender'=>array(
+                'required'=>true
+        ),
+        'age'=>array(
+                'required'=>true
+        ),
+        'weight'=>array(
+            'required'=>true,
+            'isint'=>true
+        ),
+        'height'=>array(
+            'required'=>true,
+            'isfloat'=>true
+        ),
+        'bmi'=>array(
+            'required'=>true,
+        ),
+        'waist'=>array(
+            'required'=>true
+        ),
+        'activity'=>array(
+            'required'=>true
+        ),
+        'food_habit'=>array(
+            'required'=>true
+        ),
+        'hbp'=>array(
+            'required'=>true
+        ),
+        'blood_sugar'=>array(
+            'required'=>true
+        ),
+        'family_history'=>array(
+            'required'=>true
+        ),
+        'risk'=>array(
+            'required'=>true
+        )
     ));
 
     if($validation->passed()){
@@ -49,8 +77,10 @@ if(input::exists()){
                 'blood_sugar'=>input::get('blood_sugar'),
                 'family_history'=>input::get('family_history'),
                 'risk'=>input::get('risk')
-
             ));
+
+            echo "Testing: Your record has been saved in the database";
+
         } catch (Exception $e){
             die ($e->getMessage());
         }

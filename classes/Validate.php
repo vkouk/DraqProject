@@ -24,7 +24,7 @@ class Validate
                 } else if (!empty($value)) {
                     switch ($rule) {
                         case 'min':
-                            if (strlen($value )< $rule_value) {
+                            if (strlen($value) < $rule_value) {
                                 $this->addError("{$item} must be a minimum of {$rule_value} characters");
                             }
                             break;
@@ -34,16 +34,25 @@ class Validate
                             }
                             break;
                         case 'matches':
-                            if($value!=$source[$rule_value]){
+                            if ($value != $source[$rule_value]) {
                                 $this->addError("{$rule_value} must match {$item}");
                             }
                             break;
                         case 'unique':
-                            $check=$this->_db->get($rule_value, array($item, '=', $value));
-                            if($check->count()){
+                            $check = $this->_db->get($rule_value, array($item, '=', $value));
+                            if ($check->count()) {
                                 $this->addError("{$item} already exists");
                             }
                             break;
+                        case 'isint':
+                                if (is_int($value) != $rule_value) {
+                                    $this->addError("{$item} must be an integer");
+                                }
+                            break;
+                        case 'isfloat':
+                            if(is_float($value)!= $rule_value){
+                                $this->addError("{$item} must be a float");
+                            }
 
                     }
                 }
