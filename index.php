@@ -84,7 +84,7 @@
 		</div> <!-- page -->
 	</div> <!-- main -->
 	<a href="#" id="back-to-top" title="Back to top">&uarr;</a> <!-- 2/3/2017 Bill:Added back-to-top option. -->
-	<footer class="">
+	<footer class="footer">
 	    <div class="container">
 	    	<div class="row">
 	      		<div class="col-md-6">

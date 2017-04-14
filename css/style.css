@@ -276,7 +276,7 @@ nav .nav-center {
   padding: 20px 30px;
   box-sizing: border-box;
   width: 80%;
-  height:400px;
+  height:auto;
   margin: 0 10%;
   position: relative;
 }
@@ -328,7 +328,7 @@ nav .nav-center {
   color: #333;
   background: #ffffff;
   border-radius: 3px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 4px auto;
 }
 
 #progressbar li:after {
@@ -401,6 +401,21 @@ span.alignment{
   vertical-align: middle;
   padding-left:10px;
   padding-right:10px;
+}
+
+.img-thumbnail{
+max-width:100%;
+  height:auto;
+  border:none;
+
+}
+
+@media only screen and (max-width: 1024px){
+  .img-thumbnail{
+    max-width: 60%;
+    height:auto;
+  }
+
 }
 
 
@@ -481,7 +496,7 @@ footer .navbar {
 }
 
 @media only screen and (max-width: 580px) {
-  .questionnaire fieldset > div > img {
+  .img-thumbnail {
     display: none;
   }
 
@@ -490,6 +505,7 @@ footer .navbar {
   }
 
   #progressbar li {
-    padding-left: 3px;
+    padding-left: 7px;
+      padding-right:7px;
   }
 }

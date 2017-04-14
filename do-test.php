@@ -117,6 +117,7 @@ if(input::exists()){
                 <li>Risk</li>
             </ul>
             <fieldset data-name="region" data-id="region1">
+                <div class="row">
                 <h3 id="questionnaire-header">1.What is your region in Greece?</h3>
                 <div class="col-md-12 col-lg-6">
                     <select name="diabetes-ques[region]" id="region"  aria-required="true" class="selectqountry" required>
@@ -132,11 +133,13 @@ if(input::exists()){
                     </select>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question1.png" alt="">
+                    <img class="img-thumbnail img-responsive" src="images/quest-icons/question1.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="next-quest"><i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i>Next</a>
             </fieldset>
             <fieldset data-name="gender" data-id="gender2">
+                <div class="row">
                 <h3 id="questionnaire-header">2.Please specify your gender.</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -144,15 +147,17 @@ if(input::exists()){
                     <input  type="radio" id="gender_2" name="diabetes-ques[gender]" value="F" required="required" aria-required="true"><span class="alignment">Female</span><br>
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
+
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question2.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question2.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
 
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
-
             </fieldset>
             <fieldset data-name="age" data-id="age3">
+                <div class="row">
                 <h3 id="questionnaire-header">3.Please specify your age.</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -163,68 +168,82 @@ if(input::exists()){
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                        <img class="img-responsive" src="images/quest-icons/question3.png" alt="">
+                        <img class="img-responsive img-thumbnail" src="images/quest-icons/question3.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
-                <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
+                </div>
+                    <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="weight" data-id="weight4">
+                <div class="row">
                 <h3 id="questionnaire-header">4.How much do you weigh?</h3>
                 <div class="col-md-12 col-lg-6">
+                    <div class="">
                     <input type="number" id="weight" name="diabetes-ques[weight]" min="1" max="300" required="required" aria-required="true">
-                </div> <!-- col-md-12 col-lg-6 -->
+                    </div>
+                    </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question4.png" alt="">
+                    <img class="img-responsive img-thumbnail margin-50" src="images/quest-icons/question4.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="height" data-id="height5">
+                <div class="row">
                 <h3 id="questionnaire-header">5.What is your height?</h3>
                 <div class="col-md-12 col-lg-6">
+                    <div class="">
                     <input type="number" id="weight" name="diabetes-ques[height]" min="1" max="3" step="0.01" required="required" aria-required="true">
-                </div> <!-- col-md-12 col-lg-6 -->
+                    </div>
+                    </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question5.png" alt="">
+                    <img class="img-responsive img-thumbnail margin-50" src="images/quest-icons/question5.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="bmi" data-id="bmi6">
+                <div class="row">
                 <h3 id="questionnaire-header">6.Bmi</h3>
                 <div class="col-md-12 col-lg-6">
                     <p>Your BMI is //todo..</p>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question6.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question6.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="waist" data-id="waist7">
+                <div class="row">
                 <h3 id="questionnaire-header">7.What is your waist size?</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
-                    <div class="col-md-6 "id="donotdisplaymale"><h2 class="pad-10">Man</h2>
-                        <input type="radio" id="manwaist_1" name="diabetes-ques[waist]" value="0" aria-required="true" required><span class="alignment">Below 94cm</span></br>
-                        <input type="radio" id="manwaist_2" name="diabetes-ques[waist]" value="3" aria-required="true" required><span class="alignment">94cm-102cm</span></br>
-                        <input type="radio" id="manwaist_3" name="diabetes-ques[waist]" value="4" aria-required="true" required><span class="alignment">Above 102cm</span></br>
+                    <div class="col-md-6 col-xs-6"id="donotdisplaymale"><h2 class="pad-10">Man</h2>
+                        <input type="radio" id="manwaist_1" name="diabetes-ques[waist]" value="0" aria-required="true" required><span class="alignment smaller">Below 94cm</span></br>
+                        <input type="radio" id="manwaist_2" name="diabetes-ques[waist]" value="3" aria-required="true" required><span class="alignment smaller">94cm-102cm</span></br>
+                        <input type="radio" id="manwaist_3" name="diabetes-ques[waist]" value="4" aria-required="true" required><span class="alignment smaller">Above 102cm</span></br>
                     </div>
-                    <div class="col-md-6" id="donotdisplayfemale"><h2 class="pad-10">Woman</h2>
+                    <div class="col-md-6 col-xs-6" id="donotdisplayfemale"><h2 class="pad-10">Woman</h2>
 
-                        <input type="radio" id="womanwaist_1" name="diabetes-ques[waist]" value="0" aria-required="true" required><span class="alignment">Below 80cm</span></br>
-                        <input type="radio" id="womanwaist_2" name="diabetes-ques[waist]" value="3" aria-required="true" required><span class="alignment">80cm-88cm</span></br>
-                        <input type="radio" id="womanwaist_3" name="diabetes-ques[waist]" value="4" aria-required="true" required><span class="alignment">Above 88cm</span></br>
+                        <input type="radio" id="womanwaist_1" name="diabetes-ques[waist]" value="0" aria-required="true" required><span class="alignment smaller">Below 80cm</span></br>
+                        <input type="radio" id="womanwaist_2" name="diabetes-ques[waist]" value="3" aria-required="true" required><span class="alignment smaller">80cm-88cm</span></br>
+                        <input type="radio" id="womanwaist_3" name="diabetes-ques[waist]" value="4" aria-required="true" required><span class="alignment smaller">Above 88cm</span></br>
                     </div>
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question7.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question7.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="activity" data-id="activity8">
+                <div class="row">
                 <h3 id="questionnaire-header">8.Do you exercise often?</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -233,12 +252,14 @@ if(input::exists()){
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question8.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question8.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="food_habit" data-id="food_habit9">
+                <div class="row">
                 <h3 id="questionnaire-header">9.How often do you eat fruits or vegetables?</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -247,12 +268,14 @@ if(input::exists()){
                     </div>
                     </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question9.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question9.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="hbp" data-id="hbp10">
+                <div class="row">
                 <h3 id="questionnaire-header">10.Have you taken high blood preasure medication?</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -261,12 +284,14 @@ if(input::exists()){
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question10.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question10.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="blood_sugar" data-id="blood_sugar11">
+                <div class="row">
                 <h3 id="questionnaire-header">11.Have you ever had high blood sugar levels?</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -275,12 +300,14 @@ if(input::exists()){
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question11.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question11.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="family_history" data-id="family_history12">
+                <div class="row">
                 <h3 id="questionnaire-header">12.Do you have a close relative with type 1 or 2 diabetes?</h3>
                 <div class="col-md-12 col-lg-6">
                     <div class="margin-50">
@@ -290,16 +317,19 @@ if(input::exists()){
                     </div>
                 </div> <!-- col-md-12 col-lg-6 -->
                 <div class="col-md-12 col-lg-6">
-                    <img class="img-responsive" src="images/quest-icons/question12.png" alt="">
+                    <img class="img-responsive img-thumbnail" src="images/quest-icons/question12.png" alt="">
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
             <fieldset data-name="risk" data-id="risk13">
+                <div class="row">
                 <h3 id="questionnaire-header">Your result</h3>
                 <div class="col-md-12 col-lg-12">
                     <p>todo</p>
                 </div> <!-- col-md-12 col-lg-6 -->
+                </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
                 <a class="finish-quest"><i class="fa fa-check-circle fa-2x btn-align" aria-hidden="true"></i>Finish</a>
             </fieldset>
