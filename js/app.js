@@ -110,7 +110,6 @@ function questionnaire()
                     '-web-transform': 'scale('+scale+')',
                     '-o-transform': 'scale('+scale+')',
                     'position': 'relative',
-                    'margin': '0px auto',
                     'opacity': opacity});
             },
             duration: 800,
