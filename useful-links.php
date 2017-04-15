@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="links-info">
-            <h3>Useful links</h3>
+            <h3 class="h3-center">Useful links</h3>
             <ul>
                 <li><a href="https://www.diabetes.org.uk/">Diabetes United Kingdom</a></li>
                 <li><a href="https://www.diabetes.ca/">Canadian Diabetes Association</a></li>
