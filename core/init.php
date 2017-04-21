@@ -15,12 +15,6 @@ $GLOBALS['config'] = array(
         'session_name'=>'user',
 
     ),
-    'draqtest'=>array(
-
-
-
-    )
-
 );
 
 

@@ -5,7 +5,6 @@ class User
     private $_db,
         $_data,
         $_sessionName,
-
         $_isLoggedIn;
 
     public function __construct($user = null)

@@ -304,6 +304,7 @@ nav .nav-center {
   margin-bottom: 30px;
   overflow: hidden;
   counter-reset: step;
+
 }
 
 #progressbar li {
@@ -347,7 +348,7 @@ nav .nav-center {
 }
 
 #progressbar li.active:before,  #progressbar li.active:after{
-  background: #2b59a2;
+  background:#2b59a2;
   color: #ffffff;
 }
 
@@ -379,7 +380,7 @@ select.selectqountry{
   margin:50px 50px;
 }
 
-#weight, .margin-50{
+#weight, .margin-50, #height{
  margin-top: 50px;
 }
 
@@ -408,6 +409,18 @@ max-width:100%;
   height:auto;
   border:none;
 
+}
+
+.btn-default{
+  color:rgba(43, 89, 162, 0.8);
+  background-color: transparent;
+  border-color:transparent;
+}
+
+.btn-default:hover{
+  color:#2b59a2;
+  background-color: transparent;
+  border-color:transparent;
 }
 
 @media only screen and (max-width: 1024px){

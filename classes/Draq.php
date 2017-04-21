@@ -43,30 +43,19 @@ class Draq
         }
     }
 
-    public function find($userSession = null)
+    public function find($number)
     {
-        if ($userSession) {
-            $field = (is_numeric($userSession)) ? 'session_id' : 'unique_id';
-            $data = $this->_db->get('diabdata', array($field, '=', $userSession));
+
+            $field = 'unique_id';
+            $data = $this->_db->get('diabdata', array($field, '=', $number));
 
             if ($data->count()) {
                 $this->_data = $data->first();
                 return true;
             }
-        }
-        return false;
+
     }
 
-    public function update($fields = array(), $session_id = null)
-    {
-        if (!$session_id && $this->_isInSession) {
-            $session_id = $this->data()->session_id;
-        }
-
-        if(!$this->_db->update('diabdata', $session_id, $fields)){
-            throw new Exception('There was a problem updating your test');
-        }
-    }
 
     public function exists()
     {
@@ -77,18 +66,18 @@ class Draq
         $this->_db->delete('diabdata', array('session_id,', '=', $this->data()->session_id));
     }
 
-    public function isInSession(){
-        return $this->_isInSession;
-    }
+//    public function isInSession(){
+//        return $this->_isInSession;
+//    }
 
     public function data(){
         return $this->_data;
     }
-
-    public function finishSession(){
-
-        Session::delete($this->_sessionName);
-    }
+//
+//    public function finishSession(){
+//
+//        Session::delete($this->_sessionName);
+//    }
 
 
 }

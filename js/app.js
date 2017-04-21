@@ -56,6 +56,41 @@ function questionnaire()
     var animating;
 
     $(".next-quest").click(function(){
+
+        if ($(this).hasClass('calculatebmi'))
+        {
+            var current_section = $(this).parent("fieldset").attr("data-id")
+
+            if (current_section === "height5")
+            {
+                var weight = parseFloat($("input#weight").val());
+                var height = parseFloat($("input#height").val());
+                var bmi_points = 0;
+                var bmi = parseFloat(weight / (height*height));
+
+               if (bmi <= 25)
+               {
+                   bmi_points = 0;
+
+               }else if(25 < bmi && bmi <= 30)
+               {
+                   bmi_points = 1;
+
+               }else
+               {
+                   bmi_points = 2;
+               }
+
+                var factor = Math.pow(10, 2);
+                var tempNumber = bmi * factor;
+                var roundedTempNumber = Math.round(tempNumber);
+                bmi = roundedTempNumber / factor;
+
+                $("input#bmi").val(bmi);
+                $("input#bmi_points").val(bmi_points);
+            }
+        }
+
         if(animating) return false;
         animating = true;
 
@@ -87,6 +122,9 @@ function questionnaire()
             easing: 'easeInExpo'
         });
     });
+
+
+
 
     $(".prev-quest").click(function(){
         if(animating) return false;
