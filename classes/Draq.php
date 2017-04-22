@@ -18,21 +18,21 @@ class Draq
     {
         $this->_db = DB::getInstance();
 
-        $this->_sessionName = config::get('session/session_name');
-
-        if (!$userSession) {
-            if (Session::exists($this->_sessionName)) {
-                Session::put($this->_sessionName, $userSession);
-
-                if ($this->find($userSession)) {
-                    $this->_isInSession = true;
-                } else {
-                    //user not in session.
-                }
-            }
-        } else {
-            $this->find($userSession);
-        }
+//        $this->_sessionName = config::get('session/session_name');
+//
+//        if (!$userSession) {
+//            if (Session::exists($this->_sessionName)) {
+//                Session::put($this->_sessionName, $userSession);
+//
+//                if ($this->find($userSession)) {
+//                    $this->_isInSession = true;
+//                } else {
+//                    //user not in session.
+//                }
+//            }
+//        } else {
+//            $this->find($userSession);
+//        }
 
     }
 

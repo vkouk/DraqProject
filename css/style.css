@@ -431,10 +431,15 @@ max-width:100%;
 
 }
 
+.header-height{
+  line-height:70px;
+  padding:0 20px;
+}
+
 
 /*End of Nassia's temporary modifications.*/
 
-/** UsefulLinks Page **/ /** 14/3/2017 Stauros: Created style for useful links page. **/
+/** UsefulLinks Page **/ /** 14/3/2017 Stavros: Created style for useful links page. **/
 
 .links-info {
   max-width: 300px;
@@ -463,7 +468,7 @@ max-width:100%;
 
 .diabetes-page span { padding: 8px 0; }
 
-.diabetes-page > p { text-align: justify; }
+.diabetes-page > p, .beautify { text-align: justify; }
 
 .diabetes-page h3 , h4 {
   font-weight: bold;

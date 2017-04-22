@@ -1,3 +1,5 @@
+<?php error_reporting(0); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,8 +81,18 @@
 					{
 						$page_name = $_GET['page'];
 						include($page_name);
-					}
-				?>
+					}else{?>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <h1 class="h3-center header-height">Welcome to our diabetes questionnaire web application!!</h1>
+                                  <h1 class="beautify header-height">  To browse for information regarding diabetes, or answer the questionnaire
+                                    to find out your risk, simply navigate through the menu.
+                                </h1>
+                            </div>
+                        </div>
+
+                <?php } ?>
 			</div> <!-- container -->
 		</div> <!-- page -->
 	</div> <!-- main -->

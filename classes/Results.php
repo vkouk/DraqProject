@@ -8,7 +8,7 @@
  */
 class Results
 {
-    private $_draq, $_validate, $_region, $_gender, $_age, $_weight,
+    private $_draq, $_region, $_gender, $_age, $_weight,
         $_height, $_bmi, $_waist, $_activity,
         $_food_habit, $_hbp, $_blood_sugar,
         $_family_history, $_risk, $_isSuccessful;
@@ -27,11 +27,11 @@ class Results
     {
             try {
 
-                $this->InputParameters();
-                $this->InsertDataToDB();
-                $this->_isSuccessful=true;
+               $this->InputParameters();
+               $this->InsertDataToDB();
+               $this->_isSuccessful=true;
 
-                Session::flash('do-test', 'Your record has been saved in the database');
+               // Session::flash('do-test', 'Your record has been saved in the database');
             } catch (Exception $e) {
                 die ($e->getMessage());
             }
@@ -81,7 +81,7 @@ class Results
 
 
     public function calculateRisk(){
-        $this->InputParameters();
+        //$this->InputParameters();
 
         switch($this->_age){
             case '<45':
@@ -110,16 +110,36 @@ class Results
                 break;
         }
 
-        switch($this->_waist){
-            case '<94cm' || '<80cm':
-                $this->waist_points = 0;
+        switch ($this->_gender){
+            case 'M':
+                switch($this->_waist){
+                    case '<94cm':
+                        $this->waist_points = 0;
+                        break;
+                    case '94cm-102cm':
+                        $this->waist_points = 3;
+                        break;
+                    case '>102cm':
+                        $this->waist_points = 4;
+                        break;
+                }
                 break;
-            case '94cm-102cm' || '80cm-88cm':
-                $this->waist_points = 3;
+            case 'F':
+                switch($this->_waist){
+                    case '<80cm':
+                        $this->waist_points = 0;
+                        break;
+                    case '80cm-88cm':
+                        $this->waist_points = 3;
+                        break;
+                    case '>88cm':
+                        $this->waist_points = 4;
+                        break;
+                }
                 break;
-            case '>102cm' || '>88cm':
-                $this->waist_points = 4;
+
         }
+
 
         switch($this->_activity){
             case 'Y':

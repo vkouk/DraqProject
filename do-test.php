@@ -9,16 +9,16 @@
 require_once 'core/init.php';
 
 //For debugging. Only temporary!!! Do not remove yet!! Only comment!!
-print "CONTENT_TYPE: " . $_SERVER['CONTENT_TYPE'] . "<BR />";
-$data = file_get_contents('php://input');
-print "DATA: <pre>";
-var_dump($data);
-var_dump($_POST);
-print "</pre>";
+//print "CONTENT_TYPE: " . $_SERVER['CONTENT_TYPE'] . "<BR />";
+//$data = file_get_contents('php://input');
+//print "DATA: <pre>";
+//var_dump($data);
+//var_dump($_POST);
+//print "</pre>";
 
 
 
-if(isset($_POST['Submit']) && !empty($_POST['Submit'])) {
+if(input::exists()) {
     $results = new Results();
     $results->ProcessRequest();
     if ($results->isSuccessful()) {
