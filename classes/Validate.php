@@ -44,16 +44,6 @@ class Validate
                                 $this->addError("{$item} already exists");
                             }
                             break;
-                        case 'isint':
-                                if (is_int($value) != $rule_value) {
-                                    $this->addError("{$item} must be an integer");
-                                }
-                            break;
-                        case 'isfloat':
-                            if(is_float($value)!= $rule_value){
-                                $this->addError("{$item} must be a float");
-                            }
-
                     }
                 }
             }
