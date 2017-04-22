@@ -59,18 +59,17 @@ if(input::exists()) {
                 <div class="row">
                     <h3 id="questionnaire-header">1.What is your region in Greece?</h3>
                     <div class="col-md-12 col-lg-6">
-                        <select name="region" id="region" class="selectqountry" aria-required="true"
-                                required>
+                        <select name="region" id="region" class="selectqountry" aria-required="true" required>
                             <option value="none">Please select a region</option>
-                            <option value="Sterea Ellada">Sterea Ellada</option>
-                            <option value="Makedonia">Makedonia</option>
-                            <option value="Thraki">Thraki</option>
-                            <option value="Hpeiros">Hpeiros</option>
-                            <option value="Peloponnisos">Peloponnisos</option>
-                            <option value="Ionian Islands">Ionian Islands</option>
                             <option value="Aegean Islands">Aegean Islands</option>
-                            <option value="Thessalia">Thessalia</option>
+                            <option value="Central Greece">Central Greece</option>
                             <option value="Crete">Crete</option>
+                            <option value="Epirus">Epirus</option>
+                            <option value="Ionian Islands">Ionian Islands</option>
+                            <option value="Macedonia">Macedonia</option>
+                            <option value="Peloponnese">Peloponnese</option>
+                            <option value="Thessaly">Thessaly</option>
+                            <option value="Thrace">Thrace</option>                           
                         </select>
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">
