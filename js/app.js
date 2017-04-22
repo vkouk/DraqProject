@@ -124,8 +124,4 @@ function questionnaire()
     $(".finish-quest").click(function(){
         return false;
     })
-
-
-
-
 }
