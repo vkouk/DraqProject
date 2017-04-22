@@ -272,8 +272,8 @@ if(input::exists()) {
 
             <fieldset data-name="blood_sugar" data-id="blood_sugar11">
                 <div class="row">
-                    <h3 id="questionnaire-header">11.Have you ever had high blood sugar levels (ex. during a health exam
-                        or during pregnancy)?</h3>
+                    <h3 id="questionnaire-header">11.Have you ever had high blood sugar levels <br>
+                        (ex. during a health exam or during pregnancy)?</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="margin-50">
                             <input type="radio" id="blood_sugar_1" name="blood_sugar" value="Y" required="required"
