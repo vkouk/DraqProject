@@ -1,37 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Nassia
- * Date: 4/4/2017
- * Time: 12:36
- */
-
-require_once 'core/init.php';
-
-//For debugging. Only temporary!!! Do not remove yet!! Only comment!!
-//print "CONTENT_TYPE: " . $_SERVER['CONTENT_TYPE'] . "<BR />";
-//$data = file_get_contents('php://input');
-//print "DATA: <pre>";
-//var_dump($data);
-//var_dump($_POST);
-//print "</pre>";
-
-
-
-if(input::exists()) {
-    $results = new Results();
-    $results->ProcessRequest();
-    if ($results->isSuccessful()) {
-        echo "<script type='text/javascript'>
-                alert('Your data is sent to the server');
-                </script>";
-    } else {
-        echo "<script type='text/javascript'>
-                alert('Something went wrong.');
-                </script>";
-    }
-}
-?>
 
 <!-- 11/3/2017 Bill: Start making our do test questionnaire page. -->
 <div class="row">
@@ -39,7 +5,7 @@ if(input::exists()) {
         <div class="questionnaire-intro">
             <a href="#">Do The Test</a>
         </div>
-        <form action="" method="POST" name="diabetes-ques" class="questionnaire" autocomplete="off">
+        <form action="index.php?page=result.php" method="POST" name="diabetes-ques" class="questionnaire" autocomplete="off">
             <ul id="progressbar">
                 <li class="active">Region</li>
                 <li>Gender</li>
@@ -69,7 +35,7 @@ if(input::exists()) {
                             <option value="Macedonia">Macedonia</option>
                             <option value="Peloponnese">Peloponnese</option>
                             <option value="Thessaly">Thessaly</option>
-                            <option value="Thrace">Thrace</option>                           
+                            <option value="Thrace">Thrace</option>
                         </select>
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">

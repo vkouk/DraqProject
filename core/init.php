@@ -13,6 +13,7 @@ $GLOBALS['config'] = array(
 
     'session'=> array(
         'session_name'=>'user',
+        'session_draqname'=> session_name()
 
     ),
 );
