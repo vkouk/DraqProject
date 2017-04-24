@@ -124,8 +124,6 @@ function questionnaire()
     });
 
 
-
-
     $(".prev-quest").click(function(){
         if(animating) return false;
         animating = true;
