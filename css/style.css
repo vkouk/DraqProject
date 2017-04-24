@@ -304,7 +304,6 @@ nav .nav-center {
   margin-bottom: 30px;
   overflow: hidden;
   counter-reset: step;
-
 }
 
 #progressbar li {
@@ -423,12 +422,15 @@ max-width:100%;
   border-color:transparent;
 }
 
+.gender-inactive {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px){
   .img-thumbnail{
     max-width: 60%;
     height:auto;
   }
-
 }
 
 .header-height{
@@ -439,7 +441,6 @@ max-width:100%;
 .next-quest:hover, .next-quest>i:hover, .prev-quest>i:hover, .prev-quest:hover{
   cursor: pointer;
 }
-
 
 /*End of Nassia's temporary modifications.*/
 

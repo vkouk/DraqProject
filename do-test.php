@@ -67,7 +67,7 @@
                 </div>
 
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Previous</a>
-                <a class="next-quest">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
+                <a class="next-quest checkGender">Next<i class="fa fa-arrow-right fa-2x btn-align" aria-hidden="true"></i></a>
             </fieldset>
 
             <fieldset data-name="age" data-id="age3">
@@ -154,7 +154,7 @@
                     <h3 id="questionnaire-header">7.What is your waist size?</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="margin-50">
-                            <div class="col-md-6 col-xs-6" id="donotdisplaymale"><h2 class="pad-10">Man</h2>
+                            <div class="col-md-6 col-xs-6 donotdisplaymale"><h2 class="pad-10">Man</h2>
                                 <input type="radio" id="manwaist_1" name="waist" value="<94cm" aria-required="true"
                                        required/><span class="alignment smaller">Below 94cm</span></br>
                                 <input type="radio" id="manwaist_2" name="waist" value="94-102cm" aria-required="true"
@@ -162,7 +162,7 @@
                                 <input type="radio" id="manwaist_3" name="waist" value=">102cm" aria-required="true"
                                        required/><span class="alignment smaller">Above 102cm</span></br>
                             </div>
-                            <div class="col-md-6 col-xs-6" id="donotdisplayfemale"><h2 class="pad-10">Woman</h2>
+                            <div class="col-md-6 col-xs-6 donotdisplayfemale"><h2 class="pad-10">Woman</h2>
 
                                 <input type="radio" id="womanwaist_1" name="waist" value="<80cm" aria-required="true"
                                        required/><span class="alignment smaller">Below 80cm</span></br>

@@ -55,11 +55,11 @@ function questionnaire()
     var left, opacity, scale;
     var animating;
 
-    $(".next-quest").click(function(){
-
+    $(".next-quest").click(function()
+    {
         if ($(this).hasClass('calculatebmi'))
         {
-            var current_section = $(this).parent("fieldset").attr("data-id")
+            var current_section = $(this).parent("fieldset").attr("data-id");
 
             if (current_section === "height5")
             {
@@ -88,6 +88,21 @@ function questionnaire()
 
                 $("input#bmi").val(bmi);
                 $("input#bmi_points").val(bmi_points);
+            }
+        }
+
+        if ($(this).hasClass("checkGender"))
+        {
+            var gender = $("input:radio[name=gender]:checked").val();
+            if (gender === 'M')
+            {
+                $('div.donotdisplaymale').removeClass('gender-inactive');
+                $('div.donotdisplayfemale').addClass('gender-inactive');
+            }
+            else if (gender === 'F')
+            {
+                $('div.donotdisplayfemale').removeClass('gender-inactive');
+                $('div.donotdisplaymale').addClass('gender-inactive');
             }
         }
 
@@ -124,7 +139,8 @@ function questionnaire()
     });
 
 
-    $(".prev-quest").click(function(){
+    $(".prev-quest").click(function()
+    {
         if(animating) return false;
         animating = true;
 
