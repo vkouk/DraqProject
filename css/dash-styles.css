@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    /*background: lightgrey no-repeat center center fixed;*/
+    /*background-size: cover;*/
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**-----------------------**/
+/**----Personal styles----**/
+/**-----------------------**/
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+
+#container{
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: transparent;
+}
+
+.centered{
+    text-align:center;
+}
+.size-3{
+    font-size:3em;
+}
+.size-2{
+    font-size:2em;
+}
+
+body{
+    background: url("../images/da-background.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+
+
+.marg-right-50{
+    margin-right:50px;
+}
+
+.navbar-default{
+    margin-bottom:0;
+}
+
+.navbar-right{
+    margin-right:0;
+    margin-left:0;
+}
+
+.blue, .navbar-brand, .navbar-default{
+  color:#2b59a2 !important;
+}
+
+.sidebar {
+    z-index: 1;
+    position: fixed;
+    width: 250px;
+    margin-top: 51px;
+    background-color: #f8f8f8;
+    display:block;
+
+}
+
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidebar .sidebar-search {
+    padding: 15px;
+}
+
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+.sidebar .sidebar-search {
+    padding: 15px;
+}
+.sidebar ul li {
+    border-bottom: 1px solid #f8f8f8;
+}
+.sidebar ul li a.active {
+    background-color: #eeeeee;
+}
+.sidebar .arrow {
+    float: right;
+}
+.sidebar .fa.arrow:before {
+    content: "\f104";
+}
+.sidebar .active > a > .fa.arrow:before {
+    content: "\f107";
+}
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+    border-bottom: none !important;
+}
+.sidebar .nav-second-level li a {
+    padding-left: 37px;
+}
+.sidebar .nav-third-level li a {
+    padding-left: 52px;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        margin-top: 51px;
+    }
+    .navbar-top-links{
+        margin-left: auto;
+    }
+
+    #container {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        margin-top:0;
+    }
+}
+
+.page-header{
+    position:relative;
+}
+
+.navbar-static-top{
+    position:relative;
+}
+
+#navbar-collapse:first-child #navbar-collapse:first-child > a {
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+#navbar-collapse li:last-child, #navbar-collapse li:last-child a {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+#map-chart{
+    max-width: 100%;
+    min-height: 700px;
+    display:block;
+
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}

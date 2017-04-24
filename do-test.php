@@ -27,15 +27,18 @@
                     <div class="col-md-12 col-lg-6">
                         <select name="region" id="region" class="selectqountry" aria-required="true" required>
                             <option value="none">Please select a region</option>
-                            <option value="Aegean Islands">Aegean Islands</option>
+                            <option value="Attica">Attica</option>
                             <option value="Central Greece">Central Greece</option>
+                            <option value="Central Macedonia">Central Macedonia</option>
                             <option value="Crete">Crete</option>
+                            <option value="Eastern Macedonia and Thrace">Eastern Macedonia and Thrace</option>
                             <option value="Epirus">Epirus</option>
                             <option value="Ionian Islands">Ionian Islands</option>
-                            <option value="Macedonia">Macedonia</option>
+                            <option value="North Aegean Islands">North Aegean Islands</option>
                             <option value="Peloponnese">Peloponnese</option>
-                            <option value="Thessaly">Thessaly</option>
-                            <option value="Thrace">Thrace</option>
+                            <option value="South Aegean Islands">South Aegean Islands</option>
+                            <option value="Western Greece">Western Greece</option>
+                            <option value="Western Macedonia">Western Macedonia</option>
                         </select>
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">
