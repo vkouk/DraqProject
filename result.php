@@ -1,33 +1,47 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Dragoness_crysta
- * Date: 21/4/2017
- * Time: 20:59
+ * User: Nassia
+ * Date: 4/4/2017
+ * Time: 12:36
  */
 
 require_once 'core/init.php';
 
-    if (input::exists('post')) {
+//For debugging. Only temporary!!! Do not remove yet!! Only comment!!
+//print "CONTENT_TYPE: " . $_SERVER['CONTENT_TYPE'] . "<BR />";
+//$data = file_get_contents('php://input');
+//print "DATA: <pre>";
+//var_dump($data);
+//var_dump($_POST);
+//print "</pre>";
+$results = new Results();
 
-        $results=new Results();
+if ($results->isInSession()) {
+    if (input::exists()) {
+
         $results->ProcessRequest();
-        if($results->isSuccessful()){
-            echo "Your data is sent to the server.";
+        if ($results->isSuccessful()) {
+            echo "<script type='text/javascript'>
+                alert('Your data is sent to the server');
+                </script>";
+            $results->finishSession();
+        } else {
+            echo "<script type='text/javascript'>
+                alert('Something went wrong.');
+                </script>";
         }
-        else{
-            echo "Something went wrong. Please take a look";
-        }
-
     }
-
+}
 ?>
 
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <fieldset data-name="result" data-id="result">
             <div class="row">
+                <h1>Your points are: <?php echo $results->ShowPoints(); ?></h1>
                 <h1>Your risk is: <?php echo $results->calculateRisk(); ?></h1>
+                <h2>If you wish to retake the test, click <a href="index.php?page=do-test.php">here</a></h2>
             </div>
 
         </fieldset>

@@ -10,16 +10,17 @@ class Draq
 {
     private $_db,
         $_data,
-        $_sessionName,
         $_isInSession;
 
+    public $_sessionName;
 
-    public function __construct($userSession = null)
+
+    public function __construct()
     {
         $this->_db = DB::getInstance();
 
-//        $this->_sessionName = config::get('session/session_name');
-//
+        $this->_sessionName = config::get('session/session_draqname');
+
 //        if (!$userSession) {
 //            if (Session::exists($this->_sessionName)) {
 //                Session::put($this->_sessionName, $userSession);
@@ -52,6 +53,8 @@ class Draq
             if ($data->count()) {
                 $this->_data = $data->first();
                 return true;
+            } else{
+                return false;
             }
 
     }
@@ -66,18 +69,18 @@ class Draq
         $this->_db->delete('diabdata', array('session_id,', '=', $this->data()->session_id));
     }
 
-//    public function isInSession(){
-//        return $this->_isInSession;
-//    }
+    public function isInSession(){
+        return $this->_isInSession;
+    }
 
     public function data(){
         return $this->_data;
     }
-//
-//    public function finishSession(){
-//
-//        Session::delete($this->_sessionName);
-//    }
+
+    public function finishSession(){
+
+        Session::delete($this->_sessionName);
+    }
 
 
 }

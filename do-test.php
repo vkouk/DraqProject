@@ -1,37 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Nassia
- * Date: 4/4/2017
- * Time: 12:36
- */
-
-require_once 'core/init.php';
-
-//For debugging. Only temporary!!! Do not remove yet!! Only comment!!
-//print "CONTENT_TYPE: " . $_SERVER['CONTENT_TYPE'] . "<BR />";
-//$data = file_get_contents('php://input');
-//print "DATA: <pre>";
-//var_dump($data);
-//var_dump($_POST);
-//print "</pre>";
-
-
-
-if(input::exists()) {
-    $results = new Results();
-    $results->ProcessRequest();
-    if ($results->isSuccessful()) {
-        echo "<script type='text/javascript'>
-                alert('Your data is sent to the server');
-                </script>";
-    } else {
-        echo "<script type='text/javascript'>
-                alert('Something went wrong.');
-                </script>";
-    }
-}
-?>
 
 <!-- 11/3/2017 Bill: Start making our do test questionnaire page. -->
 <div class="row">
@@ -39,7 +5,7 @@ if(input::exists()) {
         <div class="questionnaire-intro">
             <a href="#">Do The Test</a>
         </div>
-        <form action="" method="POST" name="diabetes-ques" class="questionnaire" autocomplete="off">
+        <form action="index.php?page=result.php" method="POST" name="diabetes-ques" class="questionnaire" autocomplete="off">
             <ul id="progressbar">
                 <li class="active">Region</li>
                 <li>Gender</li>
@@ -61,15 +27,18 @@ if(input::exists()) {
                     <div class="col-md-12 col-lg-6">
                         <select name="region" id="region" class="selectqountry" aria-required="true" required>
                             <option value="none">Please select a region</option>
-                            <option value="Aegean Islands">Aegean Islands</option>
+                            <option value="Attica">Attica</option>
                             <option value="Central Greece">Central Greece</option>
+                            <option value="Central Macedonia">Central Macedonia</option>
                             <option value="Crete">Crete</option>
+                            <option value="Eastern Macedonia and Thrace">Eastern Macedonia and Thrace</option>
                             <option value="Epirus">Epirus</option>
                             <option value="Ionian Islands">Ionian Islands</option>
-                            <option value="Macedonia">Macedonia</option>
+                            <option value="North Aegean Islands">North Aegean Islands</option>
                             <option value="Peloponnese">Peloponnese</option>
-                            <option value="Thessaly">Thessaly</option>
-                            <option value="Thrace">Thrace</option>                           
+                            <option value="South Aegean Islands">South Aegean Islands</option>
+                            <option value="Western Greece">Western Greece</option>
+                            <option value="Western Macedonia">Western Macedonia</option>
                         </select>
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">

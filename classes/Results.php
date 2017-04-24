@@ -8,7 +8,7 @@
  */
 class Results
 {
-    private $_draq, $_region, $_gender, $_age, $_weight,
+    private $_draq, $_session_id, $_sessionName, $_region, $_gender, $_age, $_weight,
         $_height, $_bmi, $_waist, $_activity,
         $_food_habit, $_hbp, $_blood_sugar,
         $_family_history, $_risk, $_isSuccessful;
@@ -17,29 +17,46 @@ class Results
         $activity_points, $fh_points, $hbp_points,
         $bs_points, $history_points, $_points;
 
-    public function __construct()
+    public function __construct($results = null)
     {
         $this->_draq = new Draq();
+
+        $this->_sessionName = $this->_draq->_sessionName;
+
+        if (!$results) {
+
+            if ($this->_sessionName == session_name()) {
+//                $results = Session::get($this->_sessionName);
+                $this->_session_id = session_id();
+                Session::put($this->_sessionName, $this->_session_id);
+                $this->_isInSession = true;
+//                return Session::exists($this->_sessionName);
+
+            } else {
+                $this->_isInSession = false;
+            }
+        }
 
     }
 
     public function ProcessRequest()
     {
-            try {
+        try {
 
-               $this->InputParameters();
-               $this->InsertDataToDB();
-               $this->_isSuccessful=true;
+            $this->InputParameters();
+            $this->InsertDataToDB();
+            $this->_isSuccessful = true;
 
-               // Session::flash('do-test', 'Your record has been saved in the database');
-            } catch (Exception $e) {
-                die ($e->getMessage());
-            }
+            // Session::flash('do-test', 'Your record has been saved in the database');
+        } catch (Exception $e) {
+            die ($e->getMessage());
+        }
 
     }
 
     public function InputParameters()
     {
+        // $this->_session_id = Session::get($this->_sessionName);
         $this->_region = input::get('region');
         $this->_gender = input::get('gender');
         $this->_age = input::get('age');
@@ -59,6 +76,7 @@ class Results
     public function InsertDataToDB()
     {
         $this->_draq->insertData(array(
+            'session_id' => $this->_session_id,
             'region' => $this->_region,
             'gender' => $this->_gender,
             'age' => $this->_age,
@@ -72,18 +90,24 @@ class Results
             'blood_sugar' => $this->_blood_sugar,
             'family_history' => $this->_family_history,
             'risk' => $this->_risk
+
         ));
+
+        $this->_draq = null;
     }
 
-    public function isSuccessful(){
+
+    public function isSuccessful()
+    {
         return $this->_isSuccessful;
     }
 
 
-    public function calculateRisk(){
-        //$this->InputParameters();
+    public function calculateRisk()
+    {
 
-        switch($this->_age){
+
+        switch ($this->_age) {
             case '<45':
                 $this->age_points = 0;
                 break;
@@ -98,7 +122,7 @@ class Results
                 break;
         }
 
-        switch($this->_bmi){
+        switch ($this->_bmi) {
             case $this->_bmi <= 25:
                 $this->bmi_points = 0;
                 break;
@@ -110,9 +134,9 @@ class Results
                 break;
         }
 
-        switch ($this->_gender){
+        switch ($this->_gender) {
             case 'M':
-                switch($this->_waist){
+                switch ($this->_waist) {
                     case '<94cm':
                         $this->waist_points = 0;
                         break;
@@ -125,7 +149,7 @@ class Results
                 }
                 break;
             case 'F':
-                switch($this->_waist){
+                switch ($this->_waist) {
                     case '<80cm':
                         $this->waist_points = 0;
                         break;
@@ -141,7 +165,7 @@ class Results
         }
 
 
-        switch($this->_activity){
+        switch ($this->_activity) {
             case 'Y':
                 $this->activity_points = 0;
                 break;
@@ -150,7 +174,7 @@ class Results
                 break;
         }
 
-        switch($this->_food_habit){
+        switch ($this->_food_habit) {
             case 'Daily':
                 $this->fh_points = 0;
                 break;
@@ -158,7 +182,7 @@ class Results
                 $this->fh_points = 1;
         }
 
-        switch($this->_hbp){
+        switch ($this->_hbp) {
             case "Y":
                 $this->hbp_points = 2;
                 break;
@@ -167,7 +191,7 @@ class Results
                 break;
         }
 
-        switch($this->_blood_sugar){
+        switch ($this->_blood_sugar) {
             case 'Y':
                 $this->bs_points = 5;
                 break;
@@ -175,7 +199,7 @@ class Results
                 $this->bs_points = 0;
         }
 
-        switch($this->_family_history){
+        switch ($this->_family_history) {
             case 'No':
                 $this->history_points = 0;
                 break;
@@ -187,31 +211,46 @@ class Results
                 break;
         }
 
-        $this->_points= $this->age_points+ $this->bmi_points+ $this->waist_points+ $this->activity_points+ $this->fh_points+ $this->hbp_points+ $this->bs_points+ $this->history_points;
+        $this->_points = $this->age_points + $this->bmi_points + $this->waist_points + $this->activity_points + $this->fh_points + $this->hbp_points + $this->bs_points + $this->history_points;
 
-        switch($this->_points){
+        switch ($this->_points) {
             case $this->_points < 7:
-                $this->_risk=1;
+                $this->_risk = 1;
                 break;
-            case $this->_points >= 7 && $this->_points<=11:
-                $this->_risk=2;
+            case $this->_points >= 7 && $this->_points <= 11:
+                $this->_risk = 2;
                 break;
-            case $this->_points >= 12 && $this->_points<=14:
-                $this->_risk=3;
+            case $this->_points >= 12 && $this->_points <= 14:
+                $this->_risk = 3;
                 break;
-            case $this->_points >= 15 && $this->_points<=20:
-                $this->_risk=4;
+            case $this->_points >= 15 && $this->_points <= 20:
+                $this->_risk = 4;
                 break;
             case $this->_points >= 21:
-                $this->_risk=5;
+                $this->_risk = 5;
                 break;
         }
 
         return $this->_risk;
     }
 
-    public function ShowPoints(){
+    public function ShowPoints()
+    {
         return $this->_points;
+    }
+
+
+    public function isInSession()
+    {
+        return $this->_isInSession;
+    }
+
+    public function finishSession()
+    {
+
+        $this->_session_id=session_regenerate_id();
+        $_SESSION = array();
+        session_destroy();
     }
 
 }
