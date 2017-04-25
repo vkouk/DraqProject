@@ -158,7 +158,7 @@
                             <div class="col-md-6 col-xs-6 donotdisplaymale"><h2 class="pad-10">Man</h2>
                                 <input type="radio" id="manwaist_1" name="waist" value="<94cm" aria-required="true"
                                        required/><span class="alignment smaller">Below 94cm</span></br>
-                                <input type="radio" id="manwaist_2" name="waist" value="94-102cm" aria-required="true"
+                                <input type="radio" id="manwaist_2" name="waist" value="94cm-102cm" aria-required="true"
                                        required/><span class="alignment smaller">94cm-102cm</span></br>
                                 <input type="radio" id="manwaist_3" name="waist" value=">102cm" aria-required="true"
                                        required/><span class="alignment smaller">Above 102cm</span></br>

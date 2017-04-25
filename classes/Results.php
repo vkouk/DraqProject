@@ -89,6 +89,7 @@ class Results
             'hbp' => $this->_hbp,
             'blood_sugar' => $this->_blood_sugar,
             'family_history' => $this->_family_history,
+            'points'=>$this->_points,
             'risk' => $this->_risk
 
         ));
