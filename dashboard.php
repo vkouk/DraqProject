@@ -2,7 +2,7 @@
 require_once 'core/init.php';
 /**
  * Created by PhpStorm.
- * User: Dragoness_crysta
+ * User: Athanassia Oikonomou
  * Date: 6/4/2017
  * Time: 1:02
  * Under construction...

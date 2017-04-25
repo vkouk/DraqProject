@@ -1,5 +1,5 @@
 /**
- * Created by Dragoness_crysta on 24/4/2017.
+ * Created by Athanassia Oikonomou on 24/4/2017.
  */
 
 
@@ -20,6 +20,7 @@ $(function () {
             case "North Aegean Islands": code="gr-an"; break;
             case "Peloponnese": code="gr-pp"; break;
             case "South Aegean Islands": code="gr-as"; break;
+            case "Thessaly": code="gr-ts"; break;
             case "Western Greece": code="gr-gw"; break;
             case "Western Macedonia": code="gr-mw"; break;
         }

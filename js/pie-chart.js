@@ -1,5 +1,5 @@
 /**
- * Created by Dragoness_crysta on 25/4/2017.
+ * Created by Athanassia Oikonomou on 25/4/2017.
  */
 
 $(function () {

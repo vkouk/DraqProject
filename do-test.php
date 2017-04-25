@@ -37,6 +37,7 @@
                             <option value="North Aegean Islands">North Aegean Islands</option>
                             <option value="Peloponnese">Peloponnese</option>
                             <option value="South Aegean Islands">South Aegean Islands</option>
+                            <option value="Thessaly">Thessaly</option>
                             <option value="Western Greece">Western Greece</option>
                             <option value="Western Macedonia">Western Macedonia</option>
                         </select>
