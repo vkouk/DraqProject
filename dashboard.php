@@ -30,7 +30,7 @@ if (!$user->isLoggedIn()) {
     //Query for female
     $connFemale=DB::getInstance();
     $queryFemale="SELECT gender FROM `diabdata` WHERE `gender`='F' AND DATE(`date`)=CURDATE()";
-    $stmtFemale=$connFemale->query($queryMale);
+    $stmtFemale=$connFemale->query($queryFemale);
     $femaleRows=$stmtFemale->count();
     $connFemale=null;
 
