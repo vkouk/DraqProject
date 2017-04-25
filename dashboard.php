@@ -22,14 +22,14 @@ if (!$user->isLoggedIn()) {
 
     //Query for male
     $connMale=DB::getInstance();
-    $queryMale="SELECT gender FROM `diabdata` WHERE `gender`='M'";
+    $queryMale="SELECT gender FROM `diabdata` WHERE `gender`='M' AND DATE(`date`)=CURDATE()";
     $stmtMale=$connMale->query($queryMale);
     $maleRows=$stmtMale->count();
     $connMale=null;
 
     //Query for female
     $connFemale=DB::getInstance();
-    $queryFemale="SELECT gender FROM `diabdata` WHERE `gender`='F'";
+    $queryFemale="SELECT gender FROM `diabdata` WHERE `gender`='F' AND DATE(`date`)=CURDATE()";
     $stmtFemale=$connFemale->query($queryMale);
     $femaleRows=$stmtFemale->count();
     $connFemale=null;
