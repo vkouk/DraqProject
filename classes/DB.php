@@ -150,6 +150,10 @@ class DB
         return false;
     }
 
+    public function prepare($query){
+        return $this->_pdo->prepare($query);
+    }
+
 }
 
 ?>

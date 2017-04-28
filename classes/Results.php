@@ -2,7 +2,7 @@
 
 /**
  * Created by PhpStorm.
- * User: Dragoness_crysta
+ * User: Athanassia Oikonomou
  * Date: 20/4/2017
  * Time: 21:35
  */
@@ -89,6 +89,7 @@ class Results
             'hbp' => $this->_hbp,
             'blood_sugar' => $this->_blood_sugar,
             'family_history' => $this->_family_history,
+            'points'=>$this->_points,
             'risk' => $this->_risk
 
         ));
@@ -214,7 +215,10 @@ class Results
         $this->_points = $this->age_points + $this->bmi_points + $this->waist_points + $this->activity_points + $this->fh_points + $this->hbp_points + $this->bs_points + $this->history_points;
 
         switch ($this->_points) {
-            case $this->_points < 7:
+            case $this->_points == 0:
+                $this->_risk = 1;
+                break;
+            case $this->_points > 0 && $this->_points < 7:
                 $this->_risk = 1;
                 break;
             case $this->_points >= 7 && $this->_points <= 11:

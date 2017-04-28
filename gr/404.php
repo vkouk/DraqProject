@@ -17,7 +17,7 @@
 				</div>
 				<div class="col-sm-12 col-md-10 col-md-offset-1">
 					<p>404 Η σελίδα δε βρέθηκε</p>
-					Παρακαλώ επιστρέψτε στην <a href="index.php">Αρχική Μας</a>
+					Παρακαλώ επιστρέψτε στην <a href="index.php">Αρχική Σελίδα</a>
 				</div>
 			</div>
 		</div>

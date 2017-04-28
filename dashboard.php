@@ -2,7 +2,7 @@
 require_once 'core/init.php';
 /**
  * Created by PhpStorm.
- * User: Dragoness_crysta
+ * User: Athanassia Oikonomou
  * Date: 6/4/2017
  * Time: 1:02
  * Under construction...
@@ -12,6 +12,36 @@ $user = new User();
 
 if (!$user->isLoggedIn()) {
     header("Location:403.php");
+}else{
+    //Query for today's fields
+    $connToday=DB::getInstance();
+    $queryToday="SELECT * FROM `diabdata` WHERE DATE(`date`) = CURDATE()";
+    $stmtToday=$connToday->query($queryToday);
+    $todayRows=$stmtToday->count();
+    $connToday=null;
+
+    //Query for male
+    $connMale=DB::getInstance();
+    $queryMale="SELECT gender FROM `diabdata` WHERE `gender`='M' AND DATE(`date`)=CURDATE()";
+    $stmtMale=$connMale->query($queryMale);
+    $maleRows=$stmtMale->count();
+    $connMale=null;
+
+    //Query for female
+    $connFemale=DB::getInstance();
+    $queryFemale="SELECT gender FROM `diabdata` WHERE `gender`='F' AND DATE(`date`)=CURDATE()";
+    $stmtFemale=$connFemale->query($queryFemale);
+    $femaleRows=$stmtFemale->count();
+    $connFemale=null;
+
+    //Query for female
+    $connAll=DB::getInstance();
+    $queryAll="SELECT * FROM `diabdata`";
+    $stmtAll=$connAll->query($queryAll);
+    $allRows=$stmtAll->count();
+    $connFemale=null;
+
+
 }
 ?>
 <!DOCTYPE html>
@@ -89,7 +119,7 @@ if (!$user->isLoggedIn()) {
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="#">Pie Charts</a><!--Will change-->
+                                <a href="dashboard.php?page=pie-charts.php">Pie Charts</a><!--Will change-->
                             </li>
                             <li>
                                 <a href="#">Graph Charts</a><!--Will change-->
@@ -152,15 +182,13 @@ if (!$user->isLoggedIn()) {
                                 <i class="fa fa-calendar fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="size-3">26</div>
+                                <div class="size-3"><?php echo $todayRows; ?></div>
                                 <div>New People did the test today!</div>
                             </div>
                         </div>
                     </div>
                     <a href="#">
                         <div class="panel-footer">
-                            <!--                            <span class="pull-left">View Details</span>-->
-                            <!--                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
                             <div class="clearfix"></div>
                         </div>
                     </a>
@@ -174,15 +202,13 @@ if (!$user->isLoggedIn()) {
                                 <i class="fa fa-male fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="size-3">12</div>
+                                <div class="size-3"><?php echo $maleRows; ?></div>
                                 <div>of them were male!</div>
                             </div>
                         </div>
                     </div>
                     <a href="#">
                         <div class="panel-footer">
-                            <!--                            <span class="pull-left">View Details</span>-->
-                            <!--                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
                             <div class="clearfix"></div>
                         </div>
                     </a>
@@ -196,15 +222,13 @@ if (!$user->isLoggedIn()) {
                                 <i class="fa fa-female fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="size-3">14</div>
+                                <div class="size-3"><?php echo $femaleRows; ?></div>
                                 <div>of them were female!</div>
                             </div>
                         </div>
                     </div>
                     <a href="#">
                         <div class="panel-footer">
-                            <!--                            <span class="pull-left">View Details</span>-->
-                            <!--                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
                             <div class="clearfix"></div>
                         </div>
                     </a>
@@ -218,15 +242,13 @@ if (!$user->isLoggedIn()) {
                                 <i class="fa fa-users fa-5x"></i>
                             </div>
                             <div class="col-xs-9 text-right">
-                                <div class="size-3">256</div>
+                                <div class="size-3"><?php echo $allRows; ?></div>
                                 <div>People have answered the test in total!</div>
                             </div>
                         </div>
                     </div>
                     <a href="#">
                         <div class="panel-footer">
-                            <!--                            <span class="pull-left">View Details</span>-->
-                            <!--                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
                             <div class="clearfix"></div>
                         </div>
                     </a>
@@ -236,16 +258,16 @@ if (!$user->isLoggedIn()) {
 
         <div class="row">
 
-            <!--            --><?php
-            //            if (isset($_GET['page'])) {
-            //                $page_name = $_GET['page'];
-            //                include($page_name);
-            //            }else{ ?>
+                        <?php
+                        if (isset($_GET['page'])) {
+                            $page_name = $_GET['page'];
+                            include($page_name);
+                        }else{ ?>
 
                 <div id="map-chart"></div>
                 <script src="js/mapchart.js"></script>
 
-                <!--            --><?php //} ?>
+                            <?php } ?>
             </div>
         </div>
     </div>
