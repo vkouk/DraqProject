@@ -34,16 +34,49 @@ if ($results->isInSession()) {
     }
 }
 ?>
-
 <div class="row">
     <div class="col-md-12 col-lg-12">
-        <fieldset data-name="result" data-id="result">
-            <div class="row">
-                <h1>Your points are: <?php echo $results->ShowPoints(); ?></h1>
-                <h1>Your risk is: <?php echo $results->calculateRisk(); ?></h1>
-                <h2>If you wish to retake the test, click <a href="index.php?page=do-test.php">here</a></h2>
+        <fieldset class="risk-alert" data-name="result" data-id="result1">
+            <div class="col-md-6">
+                <span data-id="r1">< 7</span>
             </div>
-
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+            </div>
         </fieldset>
+        <fieldset class="risk-alert" data-name="result" data-id="result2">
+            <div class="col-md-6">
+                <span data-id="r2"> 7 - 11</span>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+            </div>
+        </fieldset>
+        <fieldset class="risk-alert" data-name="result" data-id="result3">
+            <div class="col-md-6">
+                <span data-id="r3">12 - 14</span>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+            </div>
+        </fieldset>
+        <fieldset class="risk-alert" data-name="result" data-id="result4">
+            <div class="col-md-6">
+                <span data-id="r4">15 - 20</span>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+            </div>
+        </fieldset>
+        <fieldset class="risk-alert" data-name="result" data-id="result5">
+            <div class="col-md-6">
+                <span data-id="r5">21 - 26+</span>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+            </div>
+        </fieldset>
+        <!--<h1>Your risk is: <?php /*echo $results->calculateRisk(); */?></h1>-->
+        <h2>If you wish to retake the test, click <a href="index.php?page=do-test.php">here</a></h2>
     </div>
 </div>

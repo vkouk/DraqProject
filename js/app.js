@@ -47,6 +47,10 @@ jQuery(document).ready(function($) {
 	});
 
     questionnaire();
+
+    switch (result_options) {
+
+    }
 });
 
 function questionnaire()
@@ -55,12 +59,37 @@ function questionnaire()
     var left, opacity, scale;
     var animating;
 
-    $(".next-quest").click(function()
+    $(".next-quest").click(function(e)
     {
+        e.preventDefault();
+
+        var current_section = $(this).parent("fieldset").attr("data-id");
+        var input_name = $(this).parent("fieldset").find("input").attr("name");
+        var select_id = $(this).parent("fieldset").find("select").attr("id");
+
+        var section_input = $("input[name=" + input_name +"]:radio:checked").val();
+        var section_input_number = $("input[name=" + input_name +"][type=number]").val();
+        var section_select = $("#" + select_id + " option:selected").val();
+
+        if (select_id) {
+            if (section_select === "none") {
+                alert("Please answer correctly!");
+                return false;
+            }
+        }
+        if (input_name && !(current_section === "bmi6")) {
+            if (section_input === undefined && !section_input_number) {
+                alert("Please answer correctly!");
+                return false;
+            }
+            if (section_input_number === "0") {
+                alert("Please answer correctly!");
+                return false;
+            }
+        }
+
         if ($(this).hasClass('calculatebmi'))
         {
-            var current_section = $(this).parent("fieldset").attr("data-id");
-
             if (current_section === "height5")
             {
                 var weight = parseFloat($("input#weight").val());
@@ -91,9 +120,9 @@ function questionnaire()
             }
         }
 
-        if ($(this).hasClass("checkGender"))
+        if ($(this).hasClass('checkGender'))
         {
-            var gender = $("input:radio[name=gender]:checked").val();
+            var gender = $('input:radio[name=gender]:checked').val();
             if (gender === 'M')
             {
                 $('div.donotdisplaymale').removeClass('gender-inactive');

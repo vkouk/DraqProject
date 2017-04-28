@@ -37,8 +37,6 @@ if (!$user->isLoggedIn()) {
     <script src="http://code.highcharts.com/maps/modules/map.js"></script>
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/mapdata/countries/gr/gr-all.js"></script>
-
-
 </head>
 
 <body>

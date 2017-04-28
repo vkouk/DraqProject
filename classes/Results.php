@@ -231,6 +231,11 @@ class Results
                 break;
         }
 
+        echo "<script type=\"text/javascript\">
+                var result_points = '$this->_points ';
+                var risk = '$this->_risk ';
+              </script>";
+
         return $this->_risk;
     }
 

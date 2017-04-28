@@ -98,7 +98,7 @@
                     <h3 id="questionnaire-header">4.How much do you weigh?</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="">
-                            <input type="number" id="weight" name="weight" min="1" max="300" required="required"
+                            <input type="number" id="weight" name="weight" value="0" min="1" max="300" required="required"
                                    aria-required="true"/>
                         </div>
                     </div> <!-- col-md-12 col-lg-6 -->
@@ -116,8 +116,8 @@
                     <h3 id="questionnaire-header">5.What is your height?</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="">
-                            <input type="number" id="height" name="height" min="1" max="3" step="0.01"
-                                   required="required" aria-required="true"/>
+                            <input type="number" id="height" name="height" value="0" min="1" max="3" step="0.01"                                  required="required" aria-required="true"/>
+                            <p class="height-warning">e.x 1,65</p>
                         </div>
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">
@@ -139,6 +139,7 @@
                             is</h5>
 
                         <input type="text" id="bmi" name="bmi" class="margin-50">
+                        <p id="bmi" name="bmi" class="margin-50"></p>
 
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">
