@@ -140,7 +140,6 @@
                             is</h5>
 
                         <input type="text" id="bmi" name="bmi" class="margin-50">
-                        <p id="bmi" name="bmi" class="margin-50"></p>
 
                     </div> <!-- col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">

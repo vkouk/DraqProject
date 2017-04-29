@@ -47,11 +47,34 @@ jQuery(document).ready(function($) {
 	});
 
     questionnaire();
-
-    switch (result_options) {
-
-    }
+    questionnaire_result();
 });
+
+function questionnaire_result() {
+    var current_section = $(this).parent("fieldset").attr("data-id");
+
+    $.ajax({
+        method: 'GET',
+        url: 'result.php',
+        success: function (calc_risk) {
+            var calc_risk = JSON.parse(calc_risk);
+            var risks = [];
+
+            $.each(calc_risk, function (key, obj) {
+                var items = [];
+
+                items.push(Number(obj._risk));
+                risks.push(items);
+            });
+
+            if (risks[1]) {
+                if (current_section === "result1") {
+                    $(this).find("p").text("TEST");
+                }
+            }
+        }
+    });
+}
 
 function questionnaire()
 {

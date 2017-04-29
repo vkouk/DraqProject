@@ -76,7 +76,7 @@ if ($results->isInSession()) {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
             </div>
         </fieldset>
-        <!--<h1>Your risk is: <?php /*echo $results->calculateRisk(); */?></h1>-->
+        <h1>Your risk is: <?php echo $results->calculateRisk(); ?></h1><br>
         <h2>If you wish to retake the test, click <a href="index.php?page=do-test.php">here</a></h2>
     </div>
 </div>
