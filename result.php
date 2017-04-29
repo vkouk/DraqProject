@@ -25,6 +25,8 @@ if ($results->isInSession()) {
             echo "<script type='text/javascript'>
                 alert('Your data is sent to the server');
                 </script>";
+            $risk=$results->risk();
+            echo json_encode($risk);
             $results->finishSession();
         } else {
             echo "<script type='text/javascript'>

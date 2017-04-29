@@ -90,7 +90,6 @@ if (!$user->isLoggedIn()) {
                     <i class="fa fa-user blue"></i> <i class="fa fa-caret-down blue"></i>
                     Hello <?php echo escape($user->data()->username); ?>
                 </a>
-
                 <ul class="dropdown-menu">
                     <li class="blue"><a href="logout.php"><span class="glyphicon glyphicon-log-out blue"></span> Log out</a>
                     </li>
