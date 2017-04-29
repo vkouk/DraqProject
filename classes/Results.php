@@ -235,10 +235,6 @@ class Results
                 break;
         }
 
-        echo "<script type=\"text/javascript\">
-                var result_points = '$this->_points ';
-                var risk = '$this->_risk ';
-              </script>";
 
         return $this->_risk;
     }
@@ -260,6 +256,10 @@ class Results
         $this->_session_id=session_regenerate_id();
         $_SESSION = array();
         session_destroy();
+    }
+
+    public function risk(){
+        return $this->_risk;
     }
 
 }
