@@ -61,19 +61,19 @@ function questionnaire_result() {
             var risk_result = JSON.parse(risk);
             switch (risk_result)
             {
-                case 1 && result_section === "result1":
+                case (risk_result === 1 && result_section === "result1"):
                     $(this).find("p#result-text").text("Testing result1");
                     break;
-                case 2 && result_section === "result2":
+                case (risk_result === 2 && result_section === "result2"):
                     $(this).find("p#result-text").text("Testing result2");
                     break;
-                case 3 && result_section === "result3":
+                case (risk_result === 3 && result_section === "result3"):
                     $(this).find("p#result-text").text("Testing result3");
                     break;
-                case 4 && result_section === "result4":
+                case (risk_result === 4 && result_section === "result4"):
                     $(this).find("p#result-text").text("Testing result4");
                     break;
-                case 5 && result_section === "result5":
+                case (risk_result === 5 && result_section === "result5"):
                     $(this).find("p#result-text").text("Testing result5");
                     break;
                 default:
