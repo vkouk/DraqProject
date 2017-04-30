@@ -51,26 +51,33 @@ jQuery(document).ready(function($) {
 });
 
 function questionnaire_result() {
-    var current_section = $(this).parent("fieldset").attr("data-id");
+    var result_section = $(this).parent("fieldset").attr("data-id");
 
     $.ajax({
         method: 'GET',
+        dataType: 'json',
         url: 'result.php',
-        success: function (calc_risk) {
-            var calc_risk = JSON.parse(calc_risk);
-            var risks = [];
-
-            $.each(calc_risk, function (key, obj) {
-                var items = [];
-
-                items.push(Number(obj._risk));
-                risks.push(items);
-            });
-
-            if (risks[1]) {
-                if (current_section === "result1") {
-                    $(this).find("p").text("TEST");
-                }
+        success: function (risk) {
+            var risk_result = JSON.parse(risk);
+            switch (risk_result)
+            {
+                case 1 && result_section === "result1":
+                    $(this).find("p#result-text").text("Testing result1");
+                    break;
+                case 2 && result_section === "result2":
+                    $(this).find("p#result-text").text("Testing result2");
+                    break;
+                case 3 && result_section === "result3":
+                    $(this).find("p#result-text").text("Testing result3");
+                    break;
+                case 4 && result_section === "result4":
+                    $(this).find("p#result-text").text("Testing result4");
+                    break;
+                case 5 && result_section === "result5":
+                    $(this).find("p#result-text").text("Testing result5");
+                    break;
+                default:
+                    alert("You should do the test first");
             }
         }
     });

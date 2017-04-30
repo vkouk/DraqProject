@@ -378,26 +378,46 @@ nav .nav-center {
 .risk-alert {
   border-bottom: 1px solid #5e5e5e;
   margin-bottom: 25px;
+  color: #ffffff;
+  padding: 5px;
 }
 
 .risk-alert span {
   border-radius: 100px;
-  padding: 15px;
+  padding: 13px;
+  position: absolute;
+  top: 0;
 }
 
-[data-id='r1'] {
+[data-id="result1"] {
+  background-color: #a7b881;
+}
+[data-id="result2"] {
+  background-color: #ddc595;
+}
+[data-id="result3"] {
+  background-color: #d3ae84;
+}
+[data-id="result4"] {
+  background-color: #e5b39a;
+}
+[data-id="result5"] {
+  background-color: #dd916f;
+}
+
+[data-color='r1'] {
   border: 2px solid #4cae4c;
 }
-[data-id='r2'] {
+[data-color='r2'] {
   border: 2px solid #985f0d;
 }
-[data-id='r3'] {
+[data-color='r3'] {
   border: 2px solid #843534;
 }
-[data-id='r4'] {
+[data-color='r4'] {
   border: 2px solid #c9302c;
 }
-[data-id='r5'] {
+[data-color='r5'] {
   border: 2px solid #ff0000;
 }
 

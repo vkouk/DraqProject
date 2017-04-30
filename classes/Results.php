@@ -240,7 +240,7 @@ class Results
 
     public function ShowPoints()
     {
-        echo $this->_points;
+        return $this->_points;
     }
 
 
@@ -251,10 +251,13 @@ class Results
 
     public function finishSession()
     {
-
         $this->_session_id=session_regenerate_id();
         $_SESSION = array();
         session_destroy();
     }
 
+    public function risk()
+    {
+        return $this->_risk;
+    }
 }

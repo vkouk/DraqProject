@@ -25,7 +25,7 @@ if ($results->isInSession()) {
             echo "<script type='text/javascript'>
                 alert('Your data is sent to the server');
                 </script>";
-            $risk=$results->risk();
+            $risk = $results->risk();
             echo json_encode($risk);
             $results->finishSession();
         } else {
@@ -40,42 +40,42 @@ if ($results->isInSession()) {
     <div class="col-md-12 col-lg-12">
         <fieldset class="risk-alert" data-name="result" data-id="result1">
             <div class="col-md-6">
-                <span data-id="r1">< 7</span>
+                <span data-color="r1">< 7</span>
             </div>
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+                <p id="result-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
             </div>
         </fieldset>
         <fieldset class="risk-alert" data-name="result" data-id="result2">
             <div class="col-md-6">
-                <span data-id="r2"> 7 - 11</span>
+                <span data-color="r2"> 7 - 11</span>
             </div>
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+                <p id="result-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
             </div>
         </fieldset>
         <fieldset class="risk-alert" data-name="result" data-id="result3">
             <div class="col-md-6">
-                <span data-id="r3">12 - 14</span>
+                <span data-color="r3">12 - 14</span>
             </div>
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+                <p id="result-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
             </div>
         </fieldset>
         <fieldset class="risk-alert" data-name="result" data-id="result4">
             <div class="col-md-6">
-                <span data-id="r4">15 - 20</span>
+                <span data-color="r4">15 - 20</span>
             </div>
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+                <p id="result-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
             </div>
         </fieldset>
         <fieldset class="risk-alert" data-name="result" data-id="result5">
             <div class="col-md-6">
-                <span data-id="r5">21 - 26+</span>
+                <span data-color="r5">21 - 26+</span>
             </div>
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
+                <p id="result-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus est iusto nam, nemo neque nobis numquam ullam velit.</p>
             </div>
         </fieldset>
         <h1>Your risk is: <?php echo $results->calculateRisk(); ?></h1><br>
