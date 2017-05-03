@@ -43,7 +43,7 @@
 	</div>
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="../images/sskan-photo.jpg.jpg" alt="Vasilis Koukoutis">
+			<img src="../images/sskan-photo.jpg" alt="Vasilis Koukoutis">
 			<ul class="team-list team-h">
 				<p>Σταύρος Σκαντζής - <span>Front End Developer</span></p>
 	            <li>

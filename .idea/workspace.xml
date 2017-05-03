@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee87345e-7c6f-40ed-952e-68e00febc3e1" name="Default" comment="Dynamic content of Waist regarding to gender m or f.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-questionnaire.php" afterPath="$PROJECT_DIR$/about-questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/index.php" afterPath="$PROJECT_DIR$/gr/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/js/app.js" afterPath="$PROJECT_DIR$/gr/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/questionnaire.php" afterPath="$PROJECT_DIR$/gr/questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/useful-links.php" afterPath="$PROJECT_DIR$/gr/useful-links.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire.php" afterPath="$PROJECT_DIR$/questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result.php" afterPath="$PROJECT_DIR$/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/useful-links.php" afterPath="$PROJECT_DIR$/useful-links.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/about-us.php" afterPath="$PROJECT_DIR$/gr/about-us.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +16,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.14691615">
       <split-first>
         <leaf>
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
@@ -84,11 +73,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="diabetes.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="diabetes.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/diabetes.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="380">
                   <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about-us.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gr/about-us.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="256">
+                  <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/gr/living-with.php" />
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/gr/contact.php" />
-        <option value="$PROJECT_DIR$/gr/about-us.php" />
         <option value="$PROJECT_DIR$/gr/about-diabetes.php" />
         <option value="$PROJECT_DIR$/gr/prediabetes.php" />
         <option value="$PROJECT_DIR$/gr/about-questionnaire.php" />
@@ -179,6 +177,7 @@
         <option value="$PROJECT_DIR$/gr/js/app.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/gr/questionnaire.php" />
+        <option value="$PROJECT_DIR$/gr/about-us.php" />
       </list>
     </option>
   </component>
@@ -534,7 +533,7 @@
       <workItem from="1493550066381" duration="387000" />
       <workItem from="1493558993731" duration="3590000" />
       <workItem from="1493713795050" duration="27247000" />
-      <workItem from="1493793022359" duration="30741000" />
+      <workItem from="1493793022359" duration="30969000" />
     </task>
     <task id="LOCAL-00001" summary="Changes ver 1.">
       <created>1493053402125</created>
@@ -575,7 +574,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256129000" />
+    <option name="totallyTimeSpent" value="256357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -981,14 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/about-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prediabetes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1129,6 +1120,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           <folding />
         </state>
       </provider>
