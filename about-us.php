@@ -58,7 +58,7 @@
 		<div class="team-info">
 			<img src="images/noikonomou-photo.jpg" alt="Athanasia Oikonomou">
             <ul class="team-list team-h">
-                <p>Athanassia Oikonomou - <span>Full stack Developer</span></p>
+                <p>Athanassia Oikonomou - <span>Back End Developer</span></p>
                 <li>
                     <a href="mailto:athan.oikonomou@mc-class.gr"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 </li>
