@@ -1,3 +1,5 @@
+<!--3/5/2017 Stavros: Completed all the diabetes texts-->
+
 <div class="row">
     <div class="col-md-6 col-lg-4 diabetes-page">
         <h4>

@@ -36,7 +36,7 @@ if ($results->isInSession()) {
 }
 ?>
 
-
+<!--22/4/2017 Bill: Added result.php code-->
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <h1>Οι πόντοι σας είναι: <?php echo $results->ShowPoints(); ?></h1><br>

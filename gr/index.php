@@ -1,5 +1,5 @@
 <?php error_reporting(0); ?>
-
+<!--2/3/2017 Bill: Started building master page.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>

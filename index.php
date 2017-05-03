@@ -1,3 +1,6 @@
+<!--2/3/2017 Bill: Started building master page.-->
+
+
 <?php error_reporting(0); ?>
 
 <!DOCTYPE html>

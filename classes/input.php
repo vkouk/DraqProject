@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Created by PhpStorm.
+ * User: Athanassia Oikonomou
+ * Date: 4/4/2017
+ * Time: 11:42
+ */
+
 class input
 {
     public static function exists($type = 'post')

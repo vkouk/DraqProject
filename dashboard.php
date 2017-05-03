@@ -5,7 +5,6 @@ require_once 'core/init.php';
  * User: Athanassia Oikonomou
  * Date: 6/4/2017
  * Time: 1:02
- * Under construction...
  */
 
 $user = new User();
@@ -44,6 +43,8 @@ if (!$user->isLoggedIn()) {
 
 }
 ?>
+
+
 <!DOCTYPE html>
 <html>
 

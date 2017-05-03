@@ -1,6 +1,6 @@
 <!-- 11/3/2017 Bill: Made questionnaire page. -->
 <div class="row">
-	<div class="col-sm-6 col-md-6">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 		<a href="index.php?page=about-questionnaire.php">
 			<div class="caption">
 				<img class="img-responsive" src="images/about-test.jpg" alt="About The Questionnaire">
@@ -8,7 +8,7 @@
 			</div>
 		</a>
 	</div> <!-- col-sm-6 col-md-6 -->
-	<div class="col-sm-6 col-md-6">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 		<a href="index.php?page=do-test.php">
 			<div class="caption">
 				<img class="img-responsive" src="images/do-test.jpg" alt="Do The Test">

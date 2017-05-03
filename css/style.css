@@ -372,6 +372,13 @@ nav .nav-center {
     margin: 10px;
     float: left;
     position: relative;
+    display:block;
+}
+
+@media  (max-width:1000px){
+    .caption{
+        margin:10px 25%;
+    }
 }
 
 .caption span {
@@ -381,13 +388,13 @@ nav .nav-center {
     padding: 4px 8px;
     margin: 0;
     font-size: 14px;
-    background: rgba(43, 89, 162, 0.75);
+    background: rgba(43, 89, 162, 1);
     color: #f5efef;
-    opacity: 0;
-    -webkit-transition: opacity .5s linear;
-    -moz-transition: opacity .5s linear;
-    -o-transition: opacity .5s linear;
-    transition: opacity .5s linear;
+    opacity: 1;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear;
 }
 
 /*25/4/2017: Bill for risk result. Changed front-end style.*/

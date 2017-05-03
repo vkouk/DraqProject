@@ -2,6 +2,14 @@
 
 <?php
 
+/**
+ * Created by PhpStorm.
+ * User: Athanassia Oikonomou
+ * Date: 6/4/2017
+ * Time: 13:15
+ */
+
+
 require_once 'core/init.php';
 
 if (input::exists()) {

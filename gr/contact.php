@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * Created by PhpStorm.
+ * User: Athanassia Oikonomou
+ * Date: 4/4/2017
+ * Time: 11:42
+ */
+
 require_once 'core/init.php';
 
 if (input::exists()) {
@@ -49,6 +57,7 @@ if (input::exists()) {
 
 ?>
 
+<!--14/3/2017 Bill: Added contact form-->
 <div class="row">
     <div class="col-md-6">
         <p>Εάν θέλετε να επικοινωνήσετε μαζί μας, στείλτε μας μήνυμα στην ηλεκτρονική διεύθυνση contact@draqmed.eu</p>

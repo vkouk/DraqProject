@@ -38,9 +38,9 @@ jQuery(document).ready(function($) {
 	// 11/3/2017 Bill: Added opacity hover effect for image caption.
     //3/5/2017 Nassia: Slight change in opacity.
 	$('.caption').hover(function() {
-		$(this).children("span").css("opacity", "1");
+		$(this).children("span").css("opacity", "0.5");
 		}, function() {
-        $(this).children("span").css("opacity", "0");
+        $(this).children("span").css("opacity", "1");
 	});
 
 	// 2/3/2017 Bill: Added slideToggle effect for dropdown menu.
