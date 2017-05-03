@@ -23,7 +23,7 @@ if ($results->isInSession()) {
         $results->ProcessRequest();
         if ($results->isSuccessful()) {
             echo "<script type='text/javascript'>
-                alert('Your data is sent to the server');
+                alert('You completed the test. Press Ok to see your result.');
                 </script>";
             $results->finishSession();
 
@@ -119,7 +119,7 @@ if ($results->isInSession()) {
         <iframe src="https://www.google.com/maps/d/embed?mid=1SnfFXRiotlCaI1ZHJGPLLNo-e6Y" width="100%" height="700px"></iframe>
     </div>
     <div class="col-md-12 risk-info">
-        <p> In case you want to download the full list of the diabetic centers in greek, click <a target="_blank" href="http://www.galinos.org.gr/portal/pdf/%CE%94%CE%B9%CE%B1%CE%B2%CE%B7%CF%84%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CE%95%CE%BD%CE%B4%CE%BF%CE%BA%CF%81%CE%B9%CE%BD%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC%20%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%B1.pdf">here</a></p>
+        <p> In case you want to download the full list of the diabetes centers in greek, click <a target="_blank" href="http://www.galinos.org.gr/portal/pdf/%CE%94%CE%B9%CE%B1%CE%B2%CE%B7%CF%84%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CE%95%CE%BD%CE%B4%CE%BF%CE%BA%CF%81%CE%B9%CE%BD%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC%20%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%B1.pdf">here</a></p>
     </div>
 </div>
 

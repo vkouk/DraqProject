@@ -41,7 +41,7 @@
 	</div>
 	<div class="col-md-6">
 		<div class="team-info">
-			<img src="images/vkouk-photo.jpg" alt="Vasilis Koukoutis">
+			<img src="images/sskan-photo.jpg" alt="Stavros Skantzis">
 			<ul class="team-list team-h">
 				<p>Stavros Skantzis - <span>Front End Developer</span></p>
 	            <li><a href="mailto:s.skantzis@mc-class.gr" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>

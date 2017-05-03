@@ -23,7 +23,7 @@ if ($results->isInSession()) {
         $results->ProcessRequest();
         if ($results->isSuccessful()) {
             echo "<script type='text/javascript'>
-                alert('Your data is sent to the server');
+                alert('Ολοκληρώσατε το τεστ. Πατήστε ΟΚ για να δείτε το αποτέλεσμα σας.');
                 </script>";
             $results->finishSession();
 
