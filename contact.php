@@ -64,7 +64,7 @@ if (input::exists()) {
         <p>If you wish to contact us, send us an email at contact@draqmed.eu</p>
     </div>
     <div class="col-md-6">
-        <form action="contact.php" method="post">
+        <form action="" method="post">
             <div class="form-group input-group">
                 <div class="input-group-addon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
                 <input type="text" class="form-control"name="InputName" id="InputName" placeholder="Name">
