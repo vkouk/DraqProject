@@ -105,8 +105,8 @@ if ($results->isInSession()) {
         to the nearest hospital with a Diabetes center,
         in order to undergo one of the following blood exams:</p>
     <ul>
+        <li>Glycosylated Hemoglobin</li>
         <li>Fasting Plasma Glucose Test</li>
-        <li>Hemoglobin A1c Test</li>
     </ul>
 
 </div>

@@ -1,4 +1,3 @@
-///refere
 
 jQuery(document).ready(function($) {
 	// 2/3/2017 Bill: Added back-top working code.
@@ -42,6 +41,12 @@ jQuery(document).ready(function($) {
 		}, function() {
         $(this).children("span").css("opacity", "1");
 	});
+
+    $('.caption-ques').hover(function() {
+        $(this).children("span").css("opacity", "0.5");
+    }, function() {
+        $(this).children("span").css("opacity", "1");
+    });
 
 	// 2/3/2017 Bill: Added slideToggle effect for dropdown menu.
     //3/5/2017 Nassia: Slight change in slideToggle speed.

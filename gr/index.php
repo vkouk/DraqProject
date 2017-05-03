@@ -100,8 +100,11 @@
 	<footer class="footer">
 	    <div class="container">
 	    	<div class="row">
-	      		<div class="col-md-6">
-	      			<span>ΑΠΟΠΟΙΗΣΗ ΕΥΘΥΝΗΣ</span>
+                <div class="col-md-3 col-sm-12">
+                    <a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive img-position" src="../images/logo-derby.png" alt="MedCollege Logo"></a>
+                </div> <!-- col-md-3 -->
+	      		<div class="col-md-6 col-sm-12" id="disclaimer">
+	      			<p id="dis">ΑΠΟΠΟΙΗΣΗ ΕΥΘΥΝΗΣ</p>
 	      			<p class="disclaimer-text">
                         Τα περιεχόμενα αυτού του ιστότοπου δεν αποτελούν ούτε μπορούν να χρησιμοποιηθούν
                         ώς ιατρική συμβουλή, διάγνωση, πρόταση ή προτροπή. Όλες οι πληροφορίες που παρέχονται
@@ -112,11 +115,8 @@
                         ιδιοκτησία των δημιουργών του.
 	      			</p>
 	      		</div> <!-- col-md-6 -->
-	      		<div class="col-md-3">
-	      			<a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive" src="../images/logo-derby.png" alt="MedCollege Logo"></a>
-	      		</div> <!-- col-md-3 -->
-	      		<div class="col-md-3">
-	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive" src="../images/logo-med.png" alt="MedCollege Logo"></a>
+	      		<div class="col-md-3 col-sm-12">
+	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive img-position" src="../images/logo-med.png" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-md-3 -->
 	    	</div> <!-- row -->
 	    </div> <!-- container -->

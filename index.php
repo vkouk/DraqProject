@@ -103,8 +103,11 @@
 	<footer class="footer">
 	    <div class="container">
 	    	<div class="row">
-	      		<div class="col-md-6">
-	      			<span>DISCLAIMER</span>
+                <div class="col-md-3 col-sm-12">
+                    <a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive img-position" src="images/logo-derby.png" alt="MedCollege Logo"></a>
+                </div> <!-- col-md-3 -->
+	      		<div class="col-md-6 col-sm-12" id="disclaimer">
+	      			<p id="dis">DISCLAIMER</p>
 	      			<p class="disclaimer-text">
                         The content of this website does not constitute and may not be construed as medical advice,
                         diagnosis, treatment, advice, or exhortation. All information provided to the readers are
@@ -114,11 +117,8 @@
                         intellectual property of the author.
                     </p>
 	      		</div> <!-- col-md-6 -->
-	      		<div class="col-md-3 col-sm-6">
-	      			<a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive" src="images/logo-derby.png" alt="MedCollege Logo"></a>
-	      		</div> <!-- col-md-3 -->
-	      		<div class="col-md-3 col-sm-6">
-	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive" src="images/logo-med.png" alt="MedCollege Logo"></a>
+	      		<div class="col-md-3 col-sm-12">
+	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive img-position" src="images/logo-med.png" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-md-3 -->
 	    	</div> <!-- row -->
 	    </div> <!-- container -->
