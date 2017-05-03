@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee87345e-7c6f-40ed-952e-68e00febc3e1" name="Default" comment="Dynamic content of Waist regarding to gender m or f.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/about-test.jpg" afterPath="$PROJECT_DIR$/images/about-test.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-diabetes.php" afterPath="$PROJECT_DIR$/about-diabetes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-questionnaire.php" afterPath="$PROJECT_DIR$/about-questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/DB.php" afterPath="$PROJECT_DIR$/classes/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Session.php" afterPath="$PROJECT_DIR$/classes/Session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/User.php" afterPath="$PROJECT_DIR$/classes/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Validate.php" afterPath="$PROJECT_DIR$/classes/Validate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/config.php" afterPath="$PROJECT_DIR$/classes/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/input.php" afterPath="$PROJECT_DIR$/classes/input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/redirect.php" afterPath="$PROJECT_DIR$/classes/redirect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/init.php" afterPath="$PROJECT_DIR$/core/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/404.php" afterPath="$PROJECT_DIR$/gr/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/about-diabetes.php" afterPath="$PROJECT_DIR$/gr/about-diabetes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/about-questionnaire.php" afterPath="$PROJECT_DIR$/gr/about-questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/contact.php" afterPath="$PROJECT_DIR$/gr/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/core/init.php" afterPath="$PROJECT_DIR$/gr/core/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/index.php" afterPath="$PROJECT_DIR$/gr/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/js/app.js" afterPath="$PROJECT_DIR$/gr/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/do-test.php" afterPath="$PROJECT_DIR$/gr/do-test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/living-with.php" afterPath="$PROJECT_DIR$/gr/living-with.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/prediabetes.php" afterPath="$PROJECT_DIR$/gr/prediabetes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/questionnaire.php" afterPath="$PROJECT_DIR$/gr/questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/result.php" afterPath="$PROJECT_DIR$/gr/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/useful-links.php" afterPath="$PROJECT_DIR$/gr/useful-links.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph-chart-2.php" afterPath="$PROJECT_DIR$/graph-chart-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph-charts.php" afterPath="$PROJECT_DIR$/graph-charts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/living-with.php" afterPath="$PROJECT_DIR$/living-with.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prediabetes.php" afterPath="$PROJECT_DIR$/prediabetes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire.php" afterPath="$PROJECT_DIR$/questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result.php" afterPath="$PROJECT_DIR$/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/useful-links.php" afterPath="$PROJECT_DIR$/useful-links.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +18,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47300944">
+    <splitter split-orientation="horizontal" split-proportion="0.7287449">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
@@ -70,11 +35,51 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="212">
                   <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="do-test.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gr/do-test.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="598">
+                  <caret line="171" column="90" lean-forward="false" selection-start-line="171" selection-start-column="90" selection-end-line="171" selection-end-column="90" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="living-with.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gr/living-with.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="living-with.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/living-with.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="57">
+                  <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="do-test.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/do-test.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-589">
+                  <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -158,7 +163,6 @@
         <option value="$PROJECT_DIR$/classes/Results.php" />
         <option value="$PROJECT_DIR$/js/test.js" />
         <option value="$PROJECT_DIR$/gr/about-us.php" />
-        <option value="$PROJECT_DIR$/gr/do-test.php" />
         <option value="$PROJECT_DIR$/about-us.php" />
         <option value="$PROJECT_DIR$/diabetes.php" />
         <option value="$PROJECT_DIR$/gr/diabetes.php" />
@@ -180,7 +184,6 @@
         <option value="$PROJECT_DIR$/gr/about-questionnaire.php" />
         <option value="$PROJECT_DIR$/gr/contact.php" />
         <option value="$PROJECT_DIR$/gr/index.php" />
-        <option value="$PROJECT_DIR$/gr/living-with.php" />
         <option value="$PROJECT_DIR$/gr/prediabetes.php" />
         <option value="$PROJECT_DIR$/gr/result.php" />
         <option value="$PROJECT_DIR$/gr/useful-links.php" />
@@ -198,6 +201,8 @@
         <option value="$PROJECT_DIR$/gr/questionnaire.php" />
         <option value="$PROJECT_DIR$/questionnaire.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/gr/do-test.php" />
+        <option value="$PROJECT_DIR$/gr/living-with.php" />
       </list>
     </option>
   </component>
@@ -553,7 +558,7 @@
       <workItem from="1493550066381" duration="387000" />
       <workItem from="1493558993731" duration="3590000" />
       <workItem from="1493713795050" duration="27247000" />
-      <workItem from="1493793022359" duration="19301000" />
+      <workItem from="1493793022359" duration="20066000" />
     </task>
     <task id="LOCAL-00001" summary="Changes ver 1.">
       <created>1493053402125</created>
@@ -594,7 +599,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244689000" />
+    <option name="totallyTimeSpent" value="245454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -825,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/do-test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4978">
-          <caret line="262" column="91" lean-forward="false" selection-start-line="262" selection-start-column="91" selection-end-line="262" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/403.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -915,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/do-test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4118">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fetch-map-risk.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -972,14 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/living-with.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1064,14 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/living-with.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gr/result.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1128,14 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/questionnaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/questionnaire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1148,6 +1113,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/questionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/do-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/do-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="171" column="90" lean-forward="false" selection-start-line="171" selection-start-column="90" selection-end-line="171" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/living-with.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/living-with.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
           <folding />
         </state>
       </provider>

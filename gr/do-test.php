@@ -158,18 +158,18 @@
                                 <input type="radio" id="manwaist_1" name="waist" value="<94cm" aria-required="true"
                                        required/><span class="alignment smaller">Κάτω από 94cm.</span></br>
                                 <input type="radio" id="manwaist_2" name="waist" value="94cm-102cm" aria-required="true"
-                                       required/><span class="alignment smaller">Μεταξύ 94cm και 102cm.</span></br>
+                                       required/><span class="alignment smaller">94cm - 102cm.</span></br>
                                 <input type="radio" id="manwaist_3" name="waist" value=">102cm" aria-required="true"
-                                       required/><span class="alignment smaller">Περισσότερα από 102cm.</span></br>
+                                       required/><span class="alignment smaller">Πάνω από 102cm.</span></br>
                             </div>
                             <div class="col-md-6 col-xs-6 donotdisplayfemale"><h2 class="pad-10">Γυναίκα</h2>
 
                                 <input type="radio" id="womanwaist_1" name="waist" value="<80cm" aria-required="true"
                                        required/><span class="alignment smaller">Κάτω από 80cm.</span></br>
                                 <input type="radio" id="womanwaist_2" name="waist" value="80-88cm" aria-required="true"
-                                       required/><span class="alignment smaller">Μεταξύ 80cm και 88cm.</span></br>
+                                       required/><span class="alignment smaller">80cm - 88cm.</span></br>
                                 <input type="radio" id="womanwaist_3" name="waist" value=">88cm" aria-required="true"
-                                       required/><span class="alignment smaller">Περισσότερα από 88cm.</span></br>
+                                       required/><span class="alignment smaller">Πάνω από 88cm.</span></br>
                             </div>
                         </div>
                     </div> <!-- col-md-12 col-lg-6 -->
