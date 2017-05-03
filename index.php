@@ -8,9 +8,9 @@
 	<title>Draq - Diabetes Risk Assessment Questionnaire</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/flag-icon.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
@@ -102,14 +102,19 @@
 	    	<div class="row">
 	      		<div class="col-md-6">
 	      			<span>DISCLAIMER</span>
-	      			<p>
-	      				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci exercitationem eligendi provident autem qui quia.
-	      			</p>
+	      			<p class="disclaimer-text">
+                        The content of this website does not constitute and may not be construed as medical advice,
+                        diagnosis, treatment, advice, or exhortation. All information provided to the readers are
+                        for informational purposes. This website is owned by the University of Derby and its creation
+                        and management is carried out by a group of students of the Mediterranean College and was created
+                        for the sake of the Team Project course. All the outer material used for its construction is the
+                        intellectual property of the author.
+                    </p>
 	      		</div> <!-- col-md-6 -->
-	      		<div class="col-md-3">
+	      		<div class="col-md-3 col-sm-6">
 	      			<a href="http://www.derby.ac.uk" target="_blank"><img class="img-responsive" src="images/logo-derby.png" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-md-3 -->
-	      		<div class="col-md-3">
+	      		<div class="col-md-3 col-sm-6">
 	      			<a href="http://www.medcollege.edu.gr" target="_blank"><img class="img-responsive" src="images/logo-med.png" alt="MedCollege Logo"></a>
 	      		</div> <!-- col-md-3 -->
 	    	</div> <!-- row -->

@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-12 col-lg-12">
-        <div class="links-info">
+        <div class="links-info gr">
             <h3>Χρήσιμοι Σύνδεσμοι</h3>
             <ul>
                 <li><a href="https://www.diabetes.org.uk/">Διαβήτης Μεγάλη Βρετανία - Μη κερδοσκοπική οργάνωση</a></li>

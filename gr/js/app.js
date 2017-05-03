@@ -1,5 +1,3 @@
-///refere
-
 jQuery(document).ready(function($) {
 	// 2/3/2017 Bill: Added back-top working code.
 	if ($('#back-to-top').length) {

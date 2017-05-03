@@ -4,7 +4,7 @@
 		<a href="index.php?page=about-diabetes.php">
 			<div class="caption">
 				<img class="img-responsive" src="../images/test.jpg" alt="What Is Diabetes">
-				<span>What Is Diabetes</span>
+				<span>Τι είναι ο διαβήτης</span>
 			</div>
 		</a>
 	</div> <!-- col-md-6 col-lg-4 -->
@@ -12,7 +12,7 @@
 		<a href="index.php?page=prediabetes.php">
 			<div class="caption">
 				<img class="img-responsive" src="../images/test.jpg" alt="Prediabetes">
-				<span>Prediabetes</span>
+				<span>Προ-διαβήτης</span>
 			</div>
 		</a>
 	</div> <!-- col-md-6 col-lg-4 -->
@@ -20,7 +20,7 @@
 		<a href="index.php?page=living-with.php">
 			<div class="caption">
 				<img class="img-responsive" src="../images/test.jpg" alt="Living With Diabetes">
-				<span>Living With Diabetes</span>
+				<span>Ζώντας με τον διαβήτη</span>
 			</div>
 		</a>
 	</div> <!-- col-md-12 col-lg-4 -->

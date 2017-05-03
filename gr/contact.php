@@ -15,7 +15,7 @@
             </div>
             <div class="form-group input-group">
                 <div class="input-group-addon"><i class="fa fa-comments" aria-hidden="true"></i></div>
-                <textarea class="form-control" rows="3"></textarea>
+                <textarea class="form-control" rows="3" placeholder="Σχόλια"></textarea>
             </div>
             <div class="form-group input-group">
                 <button type="submit" class="btn btn-lg btn-login"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Αποστολή</button>
