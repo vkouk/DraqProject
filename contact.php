@@ -46,7 +46,7 @@ if (input::exists()) {
 
     } else {
 
-        foreach ($validation->erros() as $error) {
+        foreach ($validation->errors() as $error) {
             echo "<p>" . $error . '</br>' . "</p>";
         }
 
