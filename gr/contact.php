@@ -63,14 +63,14 @@ if (input::exists()) {
         <p>Εάν θέλετε να επικοινωνήσετε μαζί μας, στείλτε μας μήνυμα στην ηλεκτρονική διεύθυνση contact@draqmed.eu</p>
     </div>
     <div class="col-md-6">
-        <form action="" method="post">
+        <form action="/" method="post">
             <div class="form-group input-group">
                 <div class="input-group-addon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
-                <input type="text" class="form-control" id="InputName" placeholder="Ονοματεπώνυμο">
+                <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Ονοματεπώνυμο">
            </div>
             <div class="form-group input-group">
                 <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                <input type="email" class="form-control" id="InputEmail" placeholder="Ηλεκτρονικό Ταχυδρομείο">
+                <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Ηλεκτρονικό Ταχυδρομείο">
                                 
             </div>
             <div class="form-group input-group">

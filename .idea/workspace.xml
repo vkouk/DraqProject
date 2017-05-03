@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee87345e-7c6f-40ed-952e-68e00febc3e1" name="Default" comment="Dynamic content of Waist regarding to gender m or f.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/contact.php" afterPath="$PROJECT_DIR$/gr/contact.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44534412">
+    <splitter split-orientation="horizontal" split-proportion="0.7908232">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
@@ -67,21 +66,11 @@
           <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gr/contact.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="556">
-                  <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+                <state relative-caret-position="1463">
+                  <caret line="77" column="86" lean-forward="false" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="86" />
                   <folding>
                     <element signature="e#7#101#0#PHP" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contact.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="784">
-                  <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -130,12 +119,14 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="questionnaire.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/questionnaire.php">
+          <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/contact.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-                  <folding />
+                <state relative-caret-position="57">
+                  <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#8#102#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -222,8 +213,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/gr/do-test.php" />
         <option value="$PROJECT_DIR$/gr/living-with.php" />
-        <option value="$PROJECT_DIR$/gr/contact.php" />
         <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/gr/contact.php" />
       </list>
     </option>
   </component>
@@ -411,8 +402,8 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myfunreviews" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/do-test.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gr/contact.php" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/gr/contact.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -579,7 +570,7 @@
       <workItem from="1493550066381" duration="387000" />
       <workItem from="1493558993731" duration="3590000" />
       <workItem from="1493713795050" duration="27247000" />
-      <workItem from="1493793022359" duration="22164000" />
+      <workItem from="1493793022359" duration="23230000" />
     </task>
     <task id="LOCAL-00001" summary="Changes ver 1.">
       <created>1493053402125</created>
@@ -620,7 +611,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247552000" />
+    <option name="totallyTimeSpent" value="248618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1160,16 +1151,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#8#102#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gr/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="1463">
+          <caret line="77" column="86" lean-forward="false" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="86" />
           <folding>
             <element signature="e#7#101#0#PHP" expanded="true" />
           </folding>
