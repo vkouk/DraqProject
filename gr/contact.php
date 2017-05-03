@@ -60,7 +60,7 @@ if (input::exists()) {
 <!--14/3/2017 Bill: Added contact form-->
 <div class="row">
     <div class="col-md-6">
-        <p>Εάν θέλετε να επικοινωνήσετε μαζί μας, στείλτε μας μήνυμα στην ηλεκτρονική διεύθυνση contact@draqmed.eu</p>
+        <p>Σε περίπτωση επικοινωνίας, στείλτε μας μήνυμα στην ηλεκτρονική διεύθυνση contact@draqmed.eu</p>
     </div>
     <div class="col-md-6">
         <form action="" method="post">

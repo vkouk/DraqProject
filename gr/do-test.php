@@ -221,7 +221,7 @@
 
             <fieldset data-name="hbp" data-id="hbp10">
                 <div class="row">
-                    <h3 id="questionnaire-header">10.Έχετα πάρει πότε τακτικά αντιϋπερτασικά φάρμακα;</h3>
+                    <h3 id="questionnaire-header">10.Έχετε πάρει ποτέ τακτικά αντιϋπερτασικά φάρμακα;</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="margin-50">
                             <input type="radio" id="hbp_1" name="hbp" value="Y" required="required"

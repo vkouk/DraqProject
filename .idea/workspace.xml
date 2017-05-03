@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee87345e-7c6f-40ed-952e-68e00febc3e1" name="Default" comment="Dynamic content of Waist regarding to gender m or f.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/about-diabetes.php" afterPath="$PROJECT_DIR$/gr/about-diabetes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/about-questionnaire.php" afterPath="$PROJECT_DIR$/gr/about-questionnaire.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/about-us.php" afterPath="$PROJECT_DIR$/gr/about-us.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/contact.php" afterPath="$PROJECT_DIR$/gr/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/do-test.php" afterPath="$PROJECT_DIR$/gr/do-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/index.php" afterPath="$PROJECT_DIR$/gr/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/prediabetes.php" afterPath="$PROJECT_DIR$/gr/prediabetes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gr/result.php" afterPath="$PROJECT_DIR$/gr/result.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,124 +23,114 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3846154">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/result.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-                  <folding>
-                    <element signature="e#6#100#0#PHP" expanded="true" />
-                    <marker date="1493813187270" expanded="true" signature="601:706" ph="..." />
-                    <marker date="1493813187270" expanded="true" signature="815:889" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
-                  <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="do-test.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gr/do-test.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="598">
-                  <caret line="171" column="90" lean-forward="false" selection-start-line="171" selection-start-column="90" selection-end-line="171" selection-end-column="90" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="living-with.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gr/living-with.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gr/contact.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#7#101#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="living-with.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/living-with.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="49" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="do-test.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/do-test.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-589">
-                  <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="questionnaire.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gr/questionnaire.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="useful-links.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/useful-links.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/contact.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-779">
-                  <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#8#102#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="prediabetes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/prediabetes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/result.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2033">
+              <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+              <folding>
+                <element signature="e#6#100#0#PHP" expanded="true" />
+                <marker date="1493837871672" expanded="true" signature="601:718" ph="..." />
+                <marker date="1493837871672" expanded="true" signature="827:901" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-questionnaire.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gr/about-questionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="do-test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/do-test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="223" column="77" lean-forward="false" selection-start-line="223" selection-start-column="70" selection-end-line="223" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-questionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-questionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-diabetes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/about-diabetes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="108" column="101" lean-forward="false" selection-start-line="108" selection-start-column="101" selection-end-line="108" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="62" column="84" lean-forward="false" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
+              <folding>
+                <element signature="e#7#101#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gr/about-us.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prediabetes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prediabetes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -174,7 +171,6 @@
         <option value="$PROJECT_DIR$/do-test.php" />
         <option value="$PROJECT_DIR$/classes/Results.php" />
         <option value="$PROJECT_DIR$/js/test.js" />
-        <option value="$PROJECT_DIR$/gr/about-us.php" />
         <option value="$PROJECT_DIR$/about-us.php" />
         <option value="$PROJECT_DIR$/diabetes.php" />
         <option value="$PROJECT_DIR$/gr/diabetes.php" />
@@ -191,11 +187,6 @@
         <option value="$PROJECT_DIR$/gr/core/init.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/gr/404.php" />
-        <option value="$PROJECT_DIR$/gr/about-diabetes.php" />
-        <option value="$PROJECT_DIR$/gr/about-questionnaire.php" />
-        <option value="$PROJECT_DIR$/gr/index.php" />
-        <option value="$PROJECT_DIR$/gr/prediabetes.php" />
-        <option value="$PROJECT_DIR$/gr/result.php" />
         <option value="$PROJECT_DIR$/gr/useful-links.php" />
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/about-diabetes.php" />
@@ -211,10 +202,16 @@
         <option value="$PROJECT_DIR$/gr/questionnaire.php" />
         <option value="$PROJECT_DIR$/questionnaire.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/gr/do-test.php" />
         <option value="$PROJECT_DIR$/gr/living-with.php" />
         <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/gr/index.php" />
         <option value="$PROJECT_DIR$/gr/contact.php" />
+        <option value="$PROJECT_DIR$/gr/about-us.php" />
+        <option value="$PROJECT_DIR$/gr/about-diabetes.php" />
+        <option value="$PROJECT_DIR$/gr/prediabetes.php" />
+        <option value="$PROJECT_DIR$/gr/about-questionnaire.php" />
+        <option value="$PROJECT_DIR$/gr/do-test.php" />
+        <option value="$PROJECT_DIR$/gr/result.php" />
       </list>
     </option>
   </component>
@@ -570,7 +567,7 @@
       <workItem from="1493550066381" duration="387000" />
       <workItem from="1493558993731" duration="3590000" />
       <workItem from="1493713795050" duration="27247000" />
-      <workItem from="1493793022359" duration="23447000" />
+      <workItem from="1493793022359" duration="26052000" />
     </task>
     <task id="LOCAL-00001" summary="Changes ver 1.">
       <created>1493053402125</created>
@@ -611,13 +608,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248835000" />
+    <option name="totallyTimeSpent" value="251440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.228125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -806,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/about-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1002">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gr/diabetes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -856,34 +845,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/about-diabetes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-diabetes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gr/about-questionnaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-questionnaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -941,14 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -999,22 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prediabetes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gr/prediabetes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1037,18 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="e#6#100#0#PHP" expanded="true" />
-            <marker date="1493812793877" expanded="true" signature="601:718" ph="..." />
-            <marker date="1493812793877" expanded="true" signature="827:901" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gr/useful-links.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1062,18 +991,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="e#6#100#0#PHP" expanded="true" />
-            <marker date="1493813187270" expanded="true" signature="601:706" ph="..." />
-            <marker date="1493813187270" expanded="true" signature="815:889" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,14 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gr/questionnaire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1125,18 +1034,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gr/do-test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="171" column="90" lean-forward="false" selection-start-line="171" selection-start-column="90" selection-end-line="171" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/living-with.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1146,6 +1055,18 @@
         <state relative-caret-position="152">
           <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#6#100#0#PHP" expanded="true" />
+            <marker date="1493813187270" expanded="true" signature="601:706" ph="..." />
+            <marker date="1493813187270" expanded="true" signature="815:889" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,13 +1080,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gr/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="108" column="101" lean-forward="false" selection-start-line="108" selection-start-column="101" selection-end-line="108" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gr/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="361">
+          <caret line="62" column="84" lean-forward="false" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
           <folding>
             <element signature="e#7#101#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prediabetes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/prediabetes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-questionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/about-diabetes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/do-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="223" column="77" lean-forward="false" selection-start-line="223" selection-start-column="70" selection-end-line="223" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#100#0#PHP" expanded="true" />
+            <marker date="1493837871672" expanded="true" signature="601:718" ph="..." />
+            <marker date="1493837871672" expanded="true" signature="827:901" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gr/about-questionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
