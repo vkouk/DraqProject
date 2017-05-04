@@ -25,7 +25,7 @@
                 <div class="row">
                     <h3 id="questionnaire-header">1.Ποιο είναι το γεωγραφικό σας διαμέρισμα;</h3>
                     <div class="col-md-12 col-lg-6">
-                        <select name="region" id="region" class="selectqountry" aria-required="true" required>
+                        <select name="region" id="region" class="selectqountry form-control" aria-required="true" required>
                             <option value="none">Επιλέξτε διαμέρισμα</option>
                             <option value="Attica">Αττική</option>
                             <option value="Central Greece">Στερεά Ελλάδα</option>
@@ -276,7 +276,7 @@
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div>
                 <a class="prev-quest"><i class="fa fa-arrow-left fa-2x btn-align" aria-hidden="true"></i>Προηγούμενο</a>
-                <input type="submit" name="submit" value="Submit" class="btn btn-info"/>
+                <input type="submit" name="submit" value="Υποβολή" class="btn btn-info"/>
             </fieldset>
         </form> <!-- questionnaire -->
     </div> <!-- col-md-12 col-lg-12 -->

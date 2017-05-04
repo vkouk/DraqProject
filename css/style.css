@@ -317,6 +317,10 @@ nav .nav-center {
     right: 30px;
 }
 
+.form-control{
+    width:80%;
+}
+
 #progressbar {
     margin-bottom: 30px;
     overflow: hidden;
@@ -333,6 +337,16 @@ nav .nav-center {
     float: left;
     position: relative;
 
+}
+
+@media (max-width:768px){
+    #progressbar li{
+        font-size:0;
+    }
+
+    #progressbar li:before{
+        width:25px;
+    }
 }
 
 #progressbar li:before {
@@ -543,8 +557,7 @@ span.alignment {
 
 @media only screen and (max-width: 1024px) {
     .img-thumbnail {
-        max-width: 60%;
-        height: auto;
+        display:none;
     }
 }
 

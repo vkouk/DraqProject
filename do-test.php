@@ -24,8 +24,8 @@
             <fieldset data-name="region" data-id="region1">
                 <div class="row">
                     <h3 id="questionnaire-header">1.What is your region in Greece?</h3>
-                    <div class="col-md-12 col-lg-6">
-                        <select name="region" id="region" class="selectqountry" aria-required="true" required>
+                    <div class="col-lg-6 col-md-12  col-sm-6">
+                        <select name="region" id="region" class="selectqountry form-control" aria-required="true" required>
                             <option value="none">Please select a region</option>
                             <option value="Attica">Attica</option>
                             <option value="Central Greece">Central Greece</option>
@@ -42,7 +42,7 @@
                             <option value="Western Macedonia">Western Macedonia</option>
                         </select>
                     </div> <!-- col-md-12 col-lg-6 -->
-                    <div class="col-md-12 col-lg-6">
+                    <div class="col-lg-6 col-md-12 col-sm-6">
                         <img class="img-thumbnail img-responsive" src="images/quest-icons/question1.png" alt="">
                     </div> <!-- col-md-12 col-lg-6 -->
                 </div>
@@ -96,7 +96,7 @@
 
             <fieldset data-name="weight" data-id="weight4">
                 <div class="row">
-                    <h3 id="questionnaire-header">4.How much do you weigh?</h3>
+                    <h3 id="questionnaire-header">4.How much do you weigh (in kg)?</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="">
                             <input type="number" id="weight" name="weight" value="0" min="1" max="300" required="required"
@@ -114,7 +114,7 @@
 
             <fieldset data-name="height" data-id="height5">
                 <div class="row">
-                    <h3 id="questionnaire-header">5.What is your height?</h3>
+                    <h3 id="questionnaire-header">5.What is your height (in meters)?</h3>
                     <div class="col-md-12 col-lg-6">
                         <div class="">
                             <input type="number" id="height" name="height" value="0" min="1" max="3" step="0.01"                                  required="required" aria-required="true"/>

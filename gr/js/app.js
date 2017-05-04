@@ -82,7 +82,7 @@ function questionnaire()
 
         if (select_id) {
             if (section_select === "none") {
-                alert("Please answer correctly!");
+                alert("Παρακαλώ απαντήστε στην ερώτηση!");
                 return false;
             }
         }
