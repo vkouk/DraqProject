@@ -391,11 +391,33 @@ nav .nav-center {
 
 .caption-ques{
     margin:10px 16%;
+    width:100%;
+    height:auto;
     position:relative;
     display:block;
 }
 
-@media  (max-width:1000px){
+
+@media (min-width:200px) and (max-width:390px){
+    .caption-ques{
+        margin:10px 0;
+    }
+}
+
+@media (min-width:394px) and (max-width:540px){
+    .caption-ques{
+        margin:10px 15%;
+    }
+}
+
+
+@media (min-width:541px) and (max-width:747px){
+    .caption-ques{
+        margin:10px 20%;
+    }
+}
+
+@media  (min-width:748px) and (max-width:1000px){
     .caption, .caption-ques{
         margin:10px 25%;
     }
@@ -652,6 +674,17 @@ span.alignment {
 .beautify {
     text-align: justify;
     line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.h3-center{
+    font-weight: 400;
+}
+
+@media (max-width: 768px){
+    .beautify{
+    text-align:center;
+    }
 }
 
 .diabetes-page h3, h4 {

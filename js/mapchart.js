@@ -103,7 +103,7 @@ $(function () {
                     name: 'Region',
                     states: {
                         hover: {
-                            color: '#da2b25'
+                            color: '#4042da'
                         }
                     },
                     dataLabels: {
