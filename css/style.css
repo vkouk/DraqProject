@@ -634,26 +634,42 @@ span.alignment {
 
 /*3/5/2017 Nassia:Tiny change in useful links greek version*/
 .links-info>ul{
-    padding:0 20%;
+    padding:15px 20% 0 20%;
 }
 
-.gr>ul{
-    padding:0 10%;
+hr{
+    display: block;
+    content: "";
+    height: 50px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #b4b3b3;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+
 }
+
 
 .links-info h3 {
-    padding: 10px 0;
+    padding: 15px 0;
     font-weight: bold;
     text-align: center;
 }
 
 .links-info li {
-    text-align: justify;
-    list-style-type:circle;
+    text-align: center;
+    list-style-type:none;
 }
 
 .links-info li a, .h3-center {
     text-align: center;
+}
+
+@media (max-width:768px){
+    .links-info>ul{
+        padding:15px 5% 0 5%;
+    }
+
 }
 
 /** AboutDiabetes Page **/ /** 14/3/2017 Stauros: Created style for about diabetes page. **/

@@ -3,6 +3,7 @@
 
 <div class="row">
     <div class="col-lg-12 col-md-12 diabetes-page">
+        <h3>Prediabetes</h3>
         <p>
             <strong>Prediabetes</strong> is the condition that is characterized by blood glucose levels being higher than normal, but at the same time not so high as to be diagnosed as any type of diabetes. When having prediabetes, the glucose levels are disrupted during the morning or 2 hours after each meal.
         </p>
